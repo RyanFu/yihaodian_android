@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ScrollView android:orientation="vertical" android:background="#fff8eeda" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/about_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="15.0px" android:text="@string/about_title_str" />
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="top" android:id="@id/about_content" android:background="@drawable/border" android:paddingLeft="13.0px" android:paddingTop="14.0px" android:paddingRight="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="13.0px" android:layout_marginRight="10.0px" android:text="@string/about_content_str" android:lineSpacingExtra="12.0px" />
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/about_version_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginTop="17.0px" android:text="@string/about_version_title_str" />
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/about_version_content" android:background="@drawable/border" android:paddingLeft="13.0px" android:paddingBottom="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" />
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/about_service_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="15.0px" android:layout_marginBottom="14.0px" android:text="@string/feekback_service_phone" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

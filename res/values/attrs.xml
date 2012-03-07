@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="button_drawable" format="reference" />
+    <attr name="button_drawable_length" format="integer" />
+    <attr name="gallery_img" format="reference" />
+    <attr name="gallery_text" format="string" />
+    <attr name="button_normal" format="reference" />
+    <attr name="button_press" format="reference" />
+    <attr name="comment_background" format="reference" />
+    <attr name="comment_fontcolor" format="reference" />
+</resources>

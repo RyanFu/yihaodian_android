@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/set_updata_key_title">
+        <PreferenceScreen android:title="@string/set_updata_title" android:key="update" android:summary="@string/set_updata_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_search_key_title">
+        <ListPreference android:entries="@array/set_search_sum" android:title="@string/set_search_title" android:key="search" android:summary="@string/set_search_num_summary" android:defaultValue="10" android:dialogTitle="@string/set_search_title" android:entryValues="@array/set_search_sum" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_history_key_title">
+        <PreferenceScreen android:title="@string/set_history_title" android:key="history" android:summary="@string/set_history_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_net_key_title">
+        <Preference android:title="@string/set_net_title" android:key="net" android:summary="@string/set_net_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_regist" android:id="@id/menu_regist" android:title="@string/menu_regist" />
+    <item android:icon="@drawable/ic_menu_help" android:id="@id/menu_forget" android:title="@string/menu_forget" />
+    <item android:icon="@drawable/ic_menu_login" android:id="@id/menu_login" android:title="@string/menu_login" />
+    <item android:icon="@drawable/ic_menu_return" android:id="@id/menu_return" android:title="@string/menu_return" />
+</menu>

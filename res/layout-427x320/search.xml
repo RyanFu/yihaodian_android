@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_result_linear" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/search_null" android:paddingBottom="5.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="15.0px" android:text="@string/search_null" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_linear_search" android:background="@drawable/search_label_frame_bg" android:layout_width="fill_parent" android:layout_height="@dimen/search_label_background">
+        <EditText android:textSize="14.0px" android:id="@id/search_txtSearch" android:background="@drawable/search_edit01_bg" android:paddingRight="10.0px" android:paddingBottom="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="15.0px" android:layout_marginRight="15.0px" android:singleLine="true" android:maxLength="50" android:drawableLeft="@drawable/zoom" android:layout_weight="1.0" />
+        <Button android:id="@id/search_btnSearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0px" android:layout_marginTop="15.0px" android:layout_marginRight="11.0px" android:layout_marginBottom="10.0px" style="@style/Search_btn" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/search_longtail_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="5.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="5.0px">
+        <ListView android:id="@id/search_longtail_list" android:background="@drawable/search_longtail_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@null" android:divider="#ffbbbbbb" android:dividerHeight="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

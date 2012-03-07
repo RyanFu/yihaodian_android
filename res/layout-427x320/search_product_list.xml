@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_result_linear" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:btn="http://schemas.android.com/apk/res/com.thestore.main">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_result_desc" android:paddingLeft="10.0px" android:paddingRight="10.0px" android:layout_width="fill_parent" android:layout_height="67.0px" android:layout_marginTop="3.0px" android:layout_marginBottom="3.0px">
+        <LinearLayout android:background="@drawable/product_frame" android:layout_width="67.0px" android:layout_height="67.0px">
+            <ImageView android:layout_gravity="center" android:id="@id/search_product_img" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="5.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="6.0px" android:src="@drawable/img_default" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:layout_weight="1.0">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/search_product_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0px" android:layout_marginBottom="5.0px" android:singleLine="true" />
+            <TextView android:textSize="10.0px" android:textColor="#ffa72024" android:id="@id/search_product_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" />
+            <TextView android:textSize="12.0px" android:textColor="#ff26977b" android:id="@id/search_product_isbuy" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/search_result_operate" android:background="@drawable/search_product_operate" android:paddingTop="10.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0px">
+        <com.thestore.util.MyButton android:id="@id/search_op_buy" android:layout_width="40.0px" android:layout_height="60.0px" android:layout_marginLeft="50.0px" btn:button_normal="@drawable/result_buy_normal" btn:button_press="@drawable/result_buy_press" />
+        <com.thestore.util.MyButton android:id="@id/search_op_collect" android:layout_width="40.0px" android:layout_height="60.0px" android:layout_marginLeft="50.0px" btn:button_normal="@drawable/result_collection_normal" btn:button_press="@drawable/result_collection_press" />
+        <com.thestore.util.MyButton android:id="@id/search_op_show" android:layout_width="40.0px" android:layout_height="60.0px" android:layout_marginLeft="50.0px" btn:button_normal="@drawable/result_detail_normal" btn:button_press="@drawable/result_detail_press" />
+    </LinearLayout>
+</LinearLayout>

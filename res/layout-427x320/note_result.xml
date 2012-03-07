@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/note_result_title_linear" android:background="@drawable/note_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/note_result_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginBottom="10.0px" android:layout_weight="1.0" />
+        <ImageView android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0px" android:layout_marginRight="20.0px" android:layout_marginBottom="10.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/note_result_content_linear" android:background="@drawable/note_content_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/product_frame" android:layout_width="67.0px" android:layout_height="67.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="10.0px" android:layout_marginBottom="10.0px">
+            <ImageView android:layout_gravity="center" android:id="@id/note_content_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginTop="5.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="6.0px" android:src="@drawable/img_default" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginBottom="16.0px" android:layout_weight="1.0">
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/note_product_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0px" android:textColor="#ffaf1c20" android:id="@id/note_product_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0px" />
+        </LinearLayout>
+        <Button android:layout_gravity="center_vertical" android:id="@id/note_buy_btn" android:focusable="false" android:layout_marginRight="10.0px" android:text="@string/note_buy" style="@style/small_redbtn_style" />
+    </LinearLayout>
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

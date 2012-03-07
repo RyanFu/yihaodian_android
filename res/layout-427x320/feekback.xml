@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/feekback_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="15.0px" android:text="@string/feekback_title_str" />
+    <EditText android:gravity="top" android:id="@id/feekback_edit" android:background="@drawable/border" android:padding="8.0px" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="140.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="13.0px" android:layout_marginRight="10.0px" android:maxLength="800" />
+    <Button android:textSize="14.0px" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/feekback_commit" android:layout_marginTop="10.0px" android:text="@string/feekback_commit_str" style="@style/big_redbtn_style" />
+    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="20.0px" android:text="@string/feekback_service_phone" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

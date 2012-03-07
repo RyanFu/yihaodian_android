@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <com.thestore.scan.ViewfinderView android:id="@id/viewfinder_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/status_view" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_weight="0.0">
+        <TextView android:textColor="@color/status_text" android:layout_gravity="left|center" android:id="@id/status_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_default_status" android:layout_weight="1.0" android.textSize="14sp" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/status_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/scan_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/barcode_scan_btn" />
+        <Button android:id="@id/scan_exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/barcode_exit" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</FrameLayout>

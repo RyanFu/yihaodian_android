@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_search" android:id="@id/menu_find" android:title="@string/menu_find" />
+    <item android:icon="@drawable/ic_menu_deleteall" android:id="@id/menu_deleteall" android:title="@string/menu_deleteall" />
+    <item android:icon="@drawable/ic_menu_return" android:id="@id/menu_return" android:title="@string/menu_return" />
+</menu>

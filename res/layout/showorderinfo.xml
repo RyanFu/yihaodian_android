@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:title="http://schemas.android.com/apk/res/com.thestore.main"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="42.0px"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="20.0px" android:gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ScrollView android:orientation="vertical" android:background="#ffffffff" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/showorderinfo_layout" android:paddingLeft="10.0px" android:paddingTop="10.0px" android:paddingRight="15.0px" android:paddingBottom="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:src="@drawable/xin" />
+                <TextView android:textSize="16.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小棉袄奖：" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1、活动期间，购物满百且转发次数最高的前50名用户，可获得免单返利（免单金额将以单笔订单最高金额为准），所有返利将在订单完成后的7个工作日内打到用户账户中。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2、晒单次数必须满足订单成功，如中途取消订单，或者订单失败，将不记录晒单次数。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3、已获得免单返利用户将不可重复获奖。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4、所有中奖名单将在活动结束后的7个工作日内统一公布。" android:singleLine="false" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:src="@drawable/xin" />
+                <TextView android:textSize="16.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="板凳奖：" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1、活动期间，1号店官方手机微博“掌上1号店”每日不定时发布母亲节主题帖，主题帖标签为：#恋母情结大爆发#用户可参与踩楼，逢”58结尾“楼层的用户将获得20元现金券。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2、20元现金券将再活动结束后的7个工作日内统一返还到用户现金券账户中，现金券满百使用，除母婴、票券、礼品卡不能使用。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3、已获得现金券的用户不可重复获奖。" android:singleLine="false" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:src="@drawable/xin" />
+                <TextView android:textSize="16.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="酱油奖：" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1、 活动期间，用户购物满百并参与晒单活动，订单成功的用户将获得8元现金券。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2、 8元现金券将在订单成功后的7个工作日内统一返还到用户账户中，现金券满百使用，除母婴、票券、礼品卡不能使用。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3、 已获得现金券的用户不可重复获奖。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4、 所有中奖名单将分3个时间段公布：5月10日、5月17日、5月25日。" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:paddingTop="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="活动时间：4月26日-5月15日" android:singleLine="false" />
+            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:paddingLeft="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="中奖公告请查看www.yihaodian.com，本次活动解释权归1号店所有。" android:singleLine="false" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

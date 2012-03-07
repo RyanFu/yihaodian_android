@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/note_linear" android:layout_width="fill_parent" android:layout_height="56.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:btn="http://schemas.android.com/apk/res/com.thestore.main">
+    <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/note_list_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0px" android:layout_marginTop="20.0px" android:layout_marginBottom="16.0px" android:layout_weight="1.0" />
+    <com.thestore.util.MyButton android:layout_gravity="center_vertical" android:id="@id/note_del_img" android:layout_width="25.0px" android:layout_height="25.0px" android:layout_marginRight="10.0px" btn:button_normal="@drawable/cart_del_normal" btn:button_press="@drawable/cart_del_press" />
+</LinearLayout>

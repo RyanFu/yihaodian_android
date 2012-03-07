@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_scan" android:id="@id/menu_scan" android:title="@string/menu_scan" />
+    <item android:icon="@drawable/ic_menu_continuetobuy" android:id="@id/menu_buy" android:title="@string/menu_buy" />
+    <item android:icon="@drawable/ic_menu_favorite" android:id="@id/menu_favorite" android:title="@string/menu_favorite" />
+    <item android:icon="@drawable/ic_menu_share" android:id="@id/menu_share" android:title="@string/menu_share" />
+    <item android:icon="@drawable/ic_menu_return" android:id="@id/menu_return" android:title="@string/menu_return" />
+</menu>

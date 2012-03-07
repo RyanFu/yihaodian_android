@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/myorder_text_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0px">
+        <TextView android:textSize="14.0px" android:id="@id/myorder_text" android:paddingLeft="10.0px" android:paddingTop="10.0px" android:paddingRight="10.0px" android:paddingBottom="5.0px" android:clickable="true" android:layout_width="245.0px" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/myorder_operate_btn" android:focusable="false" android:layout_width="26.0px" android:layout_height="26.0px" android:layout_marginLeft="5.0px" android:layout_marginRight="10.0px" />
+    </LinearLayout>
+</LinearLayout>

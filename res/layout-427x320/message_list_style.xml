@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/message_new_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="14.0px" />
+    <ImageView android:id="@id/message_type_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:layout_marginBottom="10.0px" android:layout_weight="1.0">
+        <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/message_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="12.0px" android:textColor="#ff999999" android:id="@id/message_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="right|center" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" />
+</LinearLayout>

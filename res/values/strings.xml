@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_updata_key_title">更新设置</string>
+    <string name="set_updata_title">手动监测更新</string>
+    <string name="set_updata_summary">马上进行手动更新</string>
+    <string name="set_search_key_title">搜索设置</string>
+    <string name="set_search_title">搜索结果数量</string>
+    <string name="set_search_summary">只能为5的倍数，最大为30</string>
+    <string name="set_search_num_summary">当前搜索结果每次显示:</string>
+    <string name="set_history_key_title">历史记录设置</string>
+    <string name="set_history_title">清除缓存</string>
+    <string name="set_history_summary">当前缓存大小为：</string>
+    <string name="set_net_key_title">网络设置</string>
+    <string name="set_net_title">网络设置</string>
+    <string name="set_net_summary">配置网络链接方式</string>
+    <string name="set_history_alert">是否清除缓存？</string>
+    <string name="app_name">掌上1号店</string>
+    <string name="loading_net">加载中,请稍候...</string>
+    <string name="net_null">网络异常，请检查网络配置后，重新操作</string>
+    <string name="net_retry">网络异常，请重试！</string>
+    <string name="updata_old">您的系统已经是最新版本！</string>
+    <string name="updata_title">软件更新</string>
+    <string name="updata_ok">立即更新</string>
+    <string name="updata_no">退出</string>
+    <string name="updata_cancel">取消</string>
+    <string name="down_title_success">下载完成</string>
+    <string name="down_title_fail">下载失败</string>
+    <string name="down_content_fail">下载过程中出现错误，请重新下载!</string>
+    <string name="down_content">新版掌上1号店下载完成，请点击安装!</string>
+    <string name="reset">重新加载</string>
+    <string name="timeout">抱歉，由于网络响应较慢，请选择操作！</string>
+    <string name="menu_mystore">我的1号店</string>
+    <string name="menu_message">消息</string>
+    <string name="menu_setup">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_return">返回</string>
+    <string name="menu_research">重新搜索</string>
+    <string name="menu_continuetobuy">继续购物</string>
+    <string name="menu_favorite">收藏</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_scan">重新扫描</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_buy">购买</string>
+    <string name="menu_find">查找</string>
+    <string name="menu_deleteall">清空</string>
+    <string name="menu_forward">转发</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_regist">注册</string>
+    <string name="menu_forget">忘记密码</string>
+    <string name="menu_login">登录</string>
+    <string name="menu_myorder">订单</string>
+    <string name="menu_logout">退出帐号</string>
+    <string name="menu_checkout">结算</string>
+    <string name="menu_submitorder">下订单</string>
+    <string name="menu_cancel">取消</string>
+    <string name="menu_addreceiver">添加送货地址</string>
+    <string name="menu_edit">重新编辑</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_detail">简介</string>
+    <string name="menu_description">描述</string>
+    <string name="menu_comment">评价</string>
+    <string name="menu_manual">手动输入</string>
+    <string name="load_init">网络初始化......</string>
+    <string name="load_fail">服务器连接失败！</string>
+    <string name="load_success">检测到可用网络，初始化成功</string>
+    <string name="load_alert_title">提示</string>
+    <string name="load_alert_msg">网络出错，请检查网络配置</string>
+    <string name="loading_server">连接服务器中......</string>
+    <string name="loading">启动中......</string>
+    <string name="loading_exit">退出</string>
+    <string name="loading_retry">重试</string>
+    <string name="loading_update">检查版本中......</string>
+    <string name="message_title">我的消息</string>
+    <string name="message_list_title">我的消息()</string>
+    <string name="message_all">全 部</string>
+    <string name="message_system">系统消息</string>
+    <string name="message_private">个人消息</string>
+    <string name="message_forward">转 发</string>
+    <string name="message_del">删 除</string>
+    <string name="message_del_sucess">删除成功！</string>
+    <string name="message_del_fail">删除失败！</string>
+    <string name="mystore_title">我的1号店</string>
+    <string name="mystore_change_password">修改密码</string>
+    <string name="mystore_address">送货地址</string>
+    <string name="mystore_current_order">最近订单</string>
+    <string name="mystore_favorite">收藏</string>
+    <string name="mystore_order_id">订单编号：</string>
+    <string name="mystore_detail">详情</string>
+    <string name="mystore_buy">购买</string>
+    <string name="mystore_order_null">暂无订单，<font color="#9E0000">马上去挑选</font></string>
+    <string name="mystore_favorite_null">暂无收藏，<font color="#9E0000">马上去挑选</font></string>
+    <string name="mystore_logout">退出帐号</string>
+    <string name="mystore_logout_success">成功退出帐号！</string>
+    <string name="mystore_logout_fail">退出失败！</string>
+    <string name="mystore_logout_title">确定要退出帐号?</string>
+    <string name="bottom_home">首页</string>
+    <string name="bottom_search">搜索</string>
+    <string name="bottom_shopcar">购物车</string>
+    <string name="bottom_msg">信息</string>
+    <string name="bottom_more">更多</string>
+    <string name="order_checkorder_title_str">检查订单</string>
+    <string name="order_createorder_btn_str">下订单</string>
+    <string name="order_cancel_btn_str">取 消</string>
+    <string name="order_sendto_title_str">送货至</string>
+    <string name="order_senddetail_title_str">发货详细信息</string>
+    <string name="order_sendtyle_title_str">快递送货上门</string>
+    <string name="order_sendtime_title_str">预计发货时间：1天内</string>
+    <string name="order_paytype_title_str">付款方式</string>
+    <string name="order_paytype_str">货到付款支付</string>
+    <string name="order_paytype_usecoupon_str">使用抵用券：</string>
+    <string name="coupon_use_rule_str">使用说明：全场商品满50元使用</string>
+    <string name="myorder_title_str">我的订单</string>
+    <string name="myoder_nullorder_str">暂无订单</string>
+    <string name="orderdetail_title_str">订单详情</string>
+    <string name="orderdetail_ordercode_str">订单编号：</string>
+    <string name="orderdetail_productcount_str">总数量：</string>
+    <string name="orderdetail_productamount_str">合计：</string>
+    <string name="orderdetail_receiveinfo_str">收货人信息</string>
+    <string name="orderdetail_deliverymethod_str">送货方式</string>
+    <string name="orderdetail_paymethod_str">付款方式</string>
+    <string name="order_goodreceiver_title_str">送货地址</string>
+    <string name="order_addressedit_title_str">送货地址编辑</string>
+    <string name="order_goodreceiver_btn_str">添加送货地址</string>
+    <string name="order_receivename_str">收货人</string>
+    <string name="order_contury_str">区域</string>
+    <string name="order_address_str">详细地址</string>
+    <string name="order_postcode_str">邮政编码</string>
+    <string name="order_receivermobile_str">手机</string>
+    <string name="order_receiverphone_str">电话</string>
+    <string name="order_editaddress_okbtn_str">确 定</string>
+    <string name="order_address_updatebtn_str">更新</string>
+    <string name="order_receiver_delete_suggestion">您是否要删除该地址？</string>
+    <string name="order_invoice_title_str">发票开具</string>
+    <string name="order_invoice_desc_str">数码、手机、小家电类商品系统将默认打印出商品全称，若您订单中包含其它类商品，请在下列发票内容中选择。</string>
+    <string name="order_invoice_name_str">发票抬头</string>
+    <string name="order_invoice_content_str">发票内容</string>
+    <string name="order_invoice_amount_str">金额</string>
+    <string name="order_invoice_okbtn_str">确 认</string>
+    <string name="order_coupon_title_str">使用抵用券</string>
+    <string name="order_coupon_title01_str">请输入您手中的抵用券编码：</string>
+    <string name="order_coupon_usebtn_str">使用</string>
+    <string name="order_coupon_title02">抵用券：￥</string>
+    <string name="order_coupon_amount_str">抵用券：</string>
+    <string name="order_coupon_title03">可用抵用券：</string>
+    <string name="favorite_title">我的收藏</string>
+    <string name="favorite_sucess">收藏成功!</string>
+    <string name="favorite_fail">收藏失败!</string>
+    <string name="favorite_exist">产品已经存在</string>
+    <string name="favorite_del_message">是否确定删除该收藏!</string>
+    <string name="favorite_null">"您还没收藏商品呢！
+马上去挑选中意的商品，加入购物车吧！"</string>
+    <string name="favorite_null_btn">去挑选</string>
+    <string name="userland_title">登 录</string>
+    <string name="userland_user">用户名/邮箱：</string>
+    <string name="userland_password">密码：</string>
+    <string name="userland_remember">记住我</string>
+    <string name="userland_regist">新用户注册</string>
+    <string name="userland_forget_password">忘记密码</string>
+    <string name="userland_user_isempty">用户名不能为空</string>
+    <string name="userland_password_isempty">密码不能为空</string>
+    <string name="userland_user_not">用户不存在</string>
+    <string name="userland_password_not">密码不正确</string>
+    <string name="userland_true">登录成功！</string>
+    <string name="regist_title">注册</string>
+    <string name="regist_mail">邮箱地址：</string>
+    <string name="regist_secondpass">确认密码：</string>
+    <string name="regist_submit">提交注册</string>
+    <string name="regist_email_not_correct">请输入正确的Email地址</string>
+    <string name="regist_not_equal">两次密码不一致</string>
+    <string name="regist_user_text">(6-16字母或数字组成)</string>
+    <string name="regist_true">注册成功！</string>
+    <string name="regist_user_format_net">用户名格式错误</string>
+    <string name="regist_pass_format_net">密码由大小写英文字母、数字组成，长度6－20位</string>
+    <string name="regist_user_true_net">用户不存在</string>
+    <string name="regist_code_error_net">您输入的验证码不对，请重新输入</string>
+    <string name="regist_user_more">注册用户太多</string>
+    <string name="regist_success_buybtn_str">开始购物</string>
+    <string name="regist_success_mystore_str">我的1号店</string>
+    <string name="regist_success_msg_str">"恭喜您注册成功！
+您注册的邮箱是"</string>
+    <string name="forget_title">忘记密码</string>
+    <string name="forget_content_title">忘记密码了？</string>
+    <string name="forget_content">只须输入您的用户名或邮箱，即可轻松取回！</string>
+    <string name="forget_user">用户名或邮箱：</string>
+    <string name="forget_ver_code">验证码：</string>
+    <string name="forget_ver_change">换一张</string>
+    <string name="forget_ok">确 定</string>
+    <string name="forget_code_isempty">请输入验证码</string>
+    <string name="forget_code_not_equal">验证码错误，请重新输入</string>
+    <string name="forget_find_true">我们已将密码发送至您的邮箱，请查收</string>
+    <string name="modify_oldpwd_str">原始密码：</string>
+    <string name="modify_newpwd_str">新密码：</string>
+    <string name="modify_checkpwd_str">确认密码：</string>
+    <string name="modify_pwd_suggestion_str">(6-20位，大小写英文字母，数字组成)</string>
+    <string name="modify_pwd_okbtn_str">提交修改</string>
+    <string name="exit_title">提醒</string>
+    <string name="exit_content">您是否要退出掌上1号店?</string>
+    <string name="exit_yes">是</string>
+    <string name="exit_no">否</string>
+    <string name="home_search">搜索</string>
+    <string name="home_dialog_title">选择您的收货省份</string>
+    <string name="home_dialog_close">[关闭]</string>
+    <string name="home_dialog_huadong">华东地区</string>
+    <string name="home_dialog_huabei">华北地区</string>
+    <string name="home_dialog_huanan">华南西南</string>
+    <string name="home_dialog_huazhong">华中西北</string>
+    <string name="promotion_title">优惠促销</string>
+    <string name="productdetail_scan_title">您扫描的商品是：</string>
+    <string name="productdetail_market_price_str">市场价 ：</string>
+    <string name="productdetail_price_str">1 号 价 ：</string>
+    <string name="productdetail_quantity_str">数　量 ：</string>
+    <string name="productdetail_stocks_str">现在有货</string>
+    <string name="productdetail_outofstock_str">暂时缺货</string>
+    <string name="productdetail_buy_btn">购　买</string>
+    <string name="productdetail_favorite_btn">收藏</string>
+    <string name="productdetail_share_btn">分享</string>
+    <string name="productdetail_order">立即购买</string>
+    <string name="productdetail_cart">加入购物</string>
+    <string name="productdetail_favorite">加入收藏</string>
+    <string name="productdetail_title">商品详情</string>
+    <string name="productdetail_introduction">简介</string>
+    <string name="productdetail_descroption">描述</string>
+    <string name="productdetail_evaluation">评价</string>
+    <string name="productdetail_msg1">提示</string>
+    <string name="productdetail_msg2">很抱歉！暂无此商品的详细信息！</string>
+    <string name="productdetail_productname_title">商品名称</string>
+    <string name="productdetail_productbrand_title">品牌</string>
+    <string name="productdetail_productdesc_title">简介</string>
+    <string name="productdetail_suggestion_title">温馨提示</string>
+    <string name="productdetail_goodrating_str">好评</string>
+    <string name="productdetail_middlerating_str">中评</string>
+    <string name="productdetail_badrating_str">差评</string>
+    <string name="productdetail_norating_str">暂无评价</string>
+    <string name="product_experiencescount">%1$d%</string>
+    <string name="productdetail_ratinglog_str">评分</string>
+    <string name="productdetail_contentgood_str">优点 ：</string>
+    <string name="productdetail_contentfail_str">缺点：</string>
+    <string name="productdetail_content_str">总结 ：</string>
+    <string name="type_title">商品分类</string>
+    <string name="type_detail_title">热销商品</string>
+    <string name="show_order_title">晒单</string>
+    <string name="show_order_info_title">恋母情结大爆发活动规则</string>
+    <string name="more_title">更多</string>
+    <string name="more_myorder">我的订单</string>
+    <string name="more_shop_helper">购物助手</string>
+    <string name="more_coupon">优惠券</string>
+    <string name="more_help">帮助</string>
+    <string name="more_about">关于</string>
+    <string name="more_use">使用条件</string>
+    <string name="more_statement">隐私声明</string>
+    <string name="shopcart_back">返回</string>
+    <string name="cart_title">购物车</string>
+    <string name="cart_product_count_str">总数量：</string>
+    <string name="cart_totalprice_str">合 计：</string>
+    <string name="cart_checkout_str">进入结算中心</string>
+    <string name="cart_toshopping_btn_str">继续购物</string>
+    <string name="cart_product_count_title">数量:</string>
+    <string name="cart_can_buy">现货</string>
+    <string name="cart_not_buy">缺货</string>
+    <string name="cart_del_succes">删除成功！</string>
+    <string name="cart_del_fail">删除失败！</string>
+    <string name="cart_del_message">是否确定删除该物品!</string>
+    <string name="cart_null">"您还没有挑选商品呢！
+马上去挑选中意的商品，加入购物车吧！"</string>
+    <string name="cart_null_btn">去购物</string>
+    <string name="search_title">搜索</string>
+    <string name="search_result_title">商品搜索</string>
+    <string name="search_product_loading">商品加载中，请稍等......</string>
+    <string name="search_buy_succes">添加购物车成功!</string>
+    <string name="search_buy_not">库存不足</string>
+    <string name="search_keyword_null">关键字不为空！</string>
+    <string name="search_keyword_more">关键字不能超过50个字！</string>
+    <string name="search_null">扫描不到么？试试输入关键词查找</string>
+    <string name="search_null_dis">对不起，未找到相关商品！</string>
+    <string name="barcode_title">条形码</string>
+    <string name="barcode_img_title">条形码扫描:</string>
+    <string name="barcode_exit">返　回</string>
+    <string name="barcode_scan_btn">手动输入</string>
+    <string name="barcode_scan">扫　描</string>
+    <string name="barcode_submit">提　交</string>
+    <string name="barcode_text_title">手动输入条码编号：</string>
+    <string name="barcode_text_content">(如条码无法识别,请手动输入条码编号)</string>
+    <string name="button_ok">确定</string>
+    <string name="msg_camera_framework_bug">对不起，您的摄像头不支持扫描，请手动输入！</string>
+    <string name="msg_default_status">条码与扫描间距10CM左右，避免反光和阴影请将扫描框对准条形码</string>
+    <string name="barcode_not">对不起，没找到条码对应的商品，试试直接搜索吧！</string>
+    <string name="barcode_code_null">条码不能为空</string>
+    <string name="barcode_search_result">扫描结果</string>
+    <string name="barcode_search_title">您扫描的商品是:</string>
+    <string name="scan_null_result_title01">扫描结果</string>
+    <string name="scan_null_result_title02">搜索结果</string>
+    <string name="scan_result_null_str01">对不起！没有扫描到相应的商品。</string>
+    <string name="scan_result_null_str02">搜索不到？重新输入或者试试关键字搜索。</string>
+    <string name="scan_result_rescan_btn_str">重新扫描</string>
+    <string name="scan_result_manual_btn_str">手动输入</string>
+    <string name="scan_result_search_btn_str">搜 索</string>
+    <string name="scan_result_reinput_btn_str">重新输入</string>
+    <string name="scan_result_hot_sale_str">1号店热销榜</string>
+    <string name="scan_result_more_str">更多...</string>
+    <string name="note_title">快速购</string>
+    <string name="note_new_btn">新增购物清单</string>
+    <string name="note_price_btn">1号店比价</string>
+    <string name="note_search">查 找</string>
+    <string name="note_equal">此购物清单已经存在，请更换名称！</string>
+    <string name="note_buy">购 买</string>
+    <string name="note_result_title">查找结果</string>
+    <string name="note_alert_msg">是否确认清空您的购物清单？</string>
+    <string name="note_null">购物清单不能为空</string>
+    <string name="note_text_add">添加购物清单，帮您快速购物！</string>
+    <string name="note_text_result">批量购买，帮您快速购物！</string>
+    <string name="note_maxsize">购物清单不能超过10个</string>
+    <string name="feekback">意见反馈</string>
+    <string name="feekback_title_str">欢迎留下您的宝贵意见：</string>
+    <string name="feekback_commit_str">提交意见</string>
+    <string name="feekback_service_phone">客服电话：1010-1111</string>
+    <string name="about">关于</string>
+    <string name="about_title_str">关于1号店</string>
+    <string name="about_content_str">"\u0009“1号店”（www.yihaodian.com）是在中国规模、品类均占行业领先地位的B2C电子商务企业。 由上海益实多电子商务有限公司投资创办。自上线以来已拥有上千个供应商，数百个品牌合作商。 目前线上销售商品涉及食品饮料、美容护理、厨卫清洁、母婴玩具、电器、家居、营养保健、礼品卡等十大类，共计10万多种商品。 志在为顾客提供生活用品的一站式网上购物服务。
+ \u00092008年7月11日，“1号店”（www.yihaodian.com）正式上线，开创了中国电子商务行业 “网上超市”的先河。 公司独立研发出多套具有国际领先水平的电子商务管理系统并拥有多项专利和软件著作权，并在系统平台、采购、仓储、配送、 和客户关系管理等方面大力投入，打造自身的核心竞争力。以确保高质量的商品能以低成本、快速度、高效率的流通， 让顾客充分享受全新的生活方式和实惠方便的购物体验。
+ \u0009在供应商筛选、商品质量管理和商品入库等环节上，1号店的专业队伍严格把关，保障所有商品都为正品真货，并严格遵照国家三包法规，让顾客能放心购买。
+ \u00091号店的使命：用先进的系统平台和创新的商务模式为顾客和商家创造最大价值。"</string>
+    <string name="about_version_title_str">当前版本</string>
+    <string name="about_version_str">掌上1号店 V%1$s for android 480x800</string>
+    <string name="agreement">服务协议</string>
+    <string name="agreement_title_str">服务协议</string>
+    <string name="agreement_content_str">"\u0009《服务协议》（以下简称“本协议”）是由上海益实多电子商务有限公司在提供域名为www.yihaodian.com（以下简称“1号店”）的网站服务时与1号店用户达成的关于使用1号店网站的各项规则、条款和条件。本协议在1号店用户接受注册时生效。 请在成为1号店用户前，仔细阅读本协议中所述的所有规则、条款和条件，包括被本协议提及而纳入本协议的其他条款和条件。建议阅读本协议时，同时阅读本协议中提及的其他网页所包含的内容，因为其可能包含适用于1号店用户的其他条款和条件。 
+
+ 一、 用户注册： 
+ 1. 用户注册是指用户登陆1号店网站，按要求填写相关信息并确认同意本服务协议的过程。用户因进行交易、获取有偿服务等而发生的所有应纳税赋由用户自行承担。 
+ 2. 1号店用户必须是具有完全民事行为能力的自然人，或者是具有合法经营资格的实体组织。无民事行为能力人、限制民事行为能力人以及无经营或特定经营资格的组织不得注册为1号店用户或超过其民事权利或行为能力范围与1号店进行交易，如与1号店进行交易的，则服务协议自始无效，1号店有权立即停止与该用户的交易、注销该用户账户，并有权要求其承担相应法律责任。
+ 
+ 二、 商品交易 
+ 1.商品交易原则：
+ ①平等原则：用户和1号店在交易过程中具有同等的法律地位。
+ ②自由原则：用户享有自愿向1号店购买商品的权利，任何人不得非法干预。
+ ③公平原则：用户和1号店行使权利、履行义务应当遵循公平原则。 
+ ④诚实信用原则：用户和1号店行使权利、履行义务应当遵循诚实信用原则。
+ ⑤依合同履行义务原则：用户向1号店购买商品时，用户和1号店皆有有义务根据本服务协议的约定完成该等交易（法律或本协议禁止的交易除外）。
+ 2. 用户通过1号店网站订购商品，订单即为购买商品的要约。1号店向用户发出确认收到订单及送货确认内容的电子邮件，或直接将商品发送至用户指定地址时，构成1号店对该订单的承诺，此时合同即告成立。
+ 3. 1号店有权在发现1号店网站上显示的商品信息错误或缺货的情况下，撤回或修改该等信息。1号店保留对商品订购数量的限制权。用户下订单即表示其对在订单中提供的信息的真实性负责。 
+ 4. 1号店网站上显示的每一商品的价格都包含了增值税（按照法定税率）。送货费用根据用户选择的送货方式另外进行结算。1号店有权更改上述有关价格和送货费用的信息。 
+ 
+ 三、 用户的权利和义务：
+ 1. 用户有权拥有其在1号店的用户名及密码，并用该用户名和密码登陆1号店网站购买商品。用户不得以任何形式转让或授权他人使用自己的1号店用户名。
+ 2. 用户有权根据本协议的规定以及1号店网站上发布的相关规则在1号店网站上查询商品信息、发表使用体验、参与商品讨论、邀请关注好友、上传商品图片、参加1号店的有关活动，以及享受1号店提供的其它信息服务。
+ 3. 用户有义务在注册和通过电话购物时提供自己的真实资料，并保证诸如电子邮件地址、联系电话、联系地址、邮政编码等内容的有效性及真实性，保证1号店可以通过上述联系方式与用户本人进行联系。同时，用户也有义务在相关资料发生变更时及时更新有关注册资料。用户保证不以他人资料在1号店进行注册和购买商品。
+ 4. 用户应当保证在1号店网站购买商品过程中遵守诚实信用原则，不扰乱网上交易的正常秩序。
+ 5. 用户在成为1号店的会员后，可按1号店的积分返利说明享受返利，详情请见1号店在网站上公布的积分返利说明。积分返利说明由上海益实多电子商务有限公司提供，该规则连同与该规则相关的条款和条件，构成用户与1号店之间的完整协议。接受本协议，即表明接受积分返利说明中的条款和条件。
+ 6. 用户享有言论自由权利；并拥有适度修改、删除自己发表的文章的权利。 用户不得在1号店发表包含以下内容的言论： 
+ ①反对宪法所确定的基本原则，煽动、抗拒、破坏宪法和法律、行政法规实施的；
+ ②煽动颠覆国家政权，推翻社会主义制度，煽动、分裂国家，破坏国家统一的； 
+ ③损害国家荣誉和利益的； 
+ ④煽动民族仇恨、民族歧视，破坏民族团结的；
+ ⑤任何包含对种族、性别、宗教、地域内容等歧视的；
+ ⑥捏造或者歪曲事实，散布谣言，扰乱社会秩序的； 
+ ⑦宣扬封建迷信、邪教、淫秽、色情、赌博、暴力、凶杀、恐怖、教唆犯罪的；
+ ⑧公然侮辱他人或者捏造事实诽谤他人的，或者进行其他恶意攻击的； 
+ ⑨损害国家机关信誉的； 
+ ⑩其他违反宪法和法律行政法规的。
+ 7. 用户在发表使用体验、讨论图片等，除遵守本条款外，还应遵守该讨论区的相关规定。
+ 8. 未经1号店同意，禁止用户在网站发布任何形式的广告。 
+ 
+ 四、 1号店的权利和义务：
+ 1. 1号店有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动得以顺利进行；
+ 2. 对用户在注册和使用1号店网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，1号店应及时作出回复； 
+ 3. 对于用户在1号店网站上作出下列行为的，1号店有权作出删除相关信息、终止提供服务等处理，而无须征得用户的同意：
+ ① 1号店有权对用户的注册信息及购买行为进行查阅，发现注册信息或购买行为中存在任何问题的，有权向用户发出询问及要求改正的通知或者作出删除等处理；
+ ②用户违反本协议规定或有违反法律法规和地方规章的行为的，1号店有权停止传输并删除其信息，禁止用户发言，注销用户账户并按照相关法律规定向相关主管部门进行披露。
+ ③对于用户在1号店进行的下列行为，1号店有权对用户采取删除其信息、禁止用户发言、注销用户账户等限制性措施：包括发布或以电子邮件或以其他方式传送存在恶意、虚假和侵犯他人人身财产权利内容的信息，进行与网上购物无关或不是以购物为目的的活动，试图扰乱正常购物秩序，将有关干扰、破坏或限制任何计算机软件、硬件或通讯设备功能的软件病毒或其他计算机代码、档案和程序之资料，加以上载、发布、发送电子邮件或以其他方式传送，干扰或破坏1号店网站和服务或与1号店网站和服务相连的服务器和网络，或发布其他违反公共利益或可能严重损害1号店和其它用户合法利益的信息。
+ 4. 用户在此免费授予1号店永久性的独家使用权(并有权对该权利进行再授权)，使1号店有权在全球范围内(全部或部分地) 使用、复制、修订、改写、发布、翻译和展示用户公示于1号店网站的各类信息，或制作其派生作品，和/或以现在已知或日后开发的任何形式、媒体或技术，将上述信息纳入其它作品内。
+ 
+ 五、 网站规则、修改和可分性
+ 1. 价格变动规则 
+ 1号店将尽最大努力保证用户所购商品与网站上公布的价格一致，但价目表并不构成要约。尽管做出最大的努力，1号店商品中的一小部分商品可能会有定价错误。如果发现错误定价，1号店将采取下列措施之一：
+ 如果某一商品的正确定价低于错误定价，1号店将按照较低的定价向用户销售该商品。 
+ 如果某一商品的正确定价高于错误定价，1号店会根据具体情况，在交付前联系用户寻求指示, 或者取消订单并通知用户。
+ 2. 商品缺货规则 
+ 用户希望购买的商品如果发生缺货，用户和1号店皆有权取消该订单。1号店可对缺货商品进行预售登记，1号店会尽最大努力在最快时间内满足用户的购买需求，当缺货商品到货，1号店将第一时间通过邮件、短信或电话通知用户，方便用户进行购买。预售登记并不做订单处理，不构成要约。
+ 3. 邮件/短信服务规则
+ 1号店保留通过邮件和短信的形式，对本网站及1号店购物用户发送订单信息、促销活动等告知服务的权利。如果在1号店注册、购物，则表明已默示接受此项服务。
+ 如不想接收来自1号店除订单以外的邮件和短信，1号店可办理退阅。 
+ 4. 送货规则 
+ 1号店将会把商品送到用户指定的收货地址。所有在1号店网站上列出的送货时间皆为参考时间，供用户参照使用。参考送货时间是根据库存状况、正常的处理过程和送货时间、送货地点等情况计算得出的。
+ 5. 退换货、补货规则
+ 1号店保留对商品退换货、补货的解释权和限制权。下订单即表明接受1号店的退换货、补发货规则。详情请参见退换货、补发货规则。
+ 6. 规则的变更 
+ ① 1号店可以根据需要变更本规则、相关条款和条件或用户资格的认定。 对这些条款的修改和变更将被包含在1号店更新的规则中。上述变更具有可分割性，如果部分变更或条件被认定为无效的，不影响其他变更或条件的有效性。
+ ②用户在使用1号店提供的各项服务的同时，承诺接受并遵守各项相关规则的规定。1号店有权根据需要不时地制定、修改本协议或各类规则，如本协议有任何变更，1号店将在网站重要页面上提示修改内容。如用户不同意相关变更，必须停止使用“服务”。经修订的协议一经在1号店网站公布后，立即自动生效。各类规则会在发布后生效，亦成为本协议的一部分。登录或继续使用“服务”将表示用户接受经修订的协议。
+ 7. 解除和终止 
+ ①用户有权在下列情况下，取消订单：
+ a)经用户和1号店协商达成一致的；
+ b)1号店就用户订单做出承诺之前； 
+ c)1号店网站上的公布的商品价格发生变化或错误，用户在1号店发货之前通知1号店的。
+ 
+ ②1号店在下列情况下，可以取消用户订单：
+ a)经用户和1号店协商达成一致的； 
+ b)1号店网站上显示的商品信息明显错误或缺货的；
+ c)用户订单信息明显错误或超出1号店存货量；
+ d)因不可抗力、1号店系统发生故障或遭受第三攻击，及其它1号店无法控制的情形；
+ e)经1号店判断不符合公平和诚实信用原则的情形，如同一用户多次无理由拒收商品。
+ 
+ 1号店可以终止全部或部分规则，即使1号店没有要求或强制用户严格遵守这些规则，也并不构成1号店对任何权利的放弃。
+ 8. 责任限制 
+ ①在法律法规所允许的限度内，因使用1号店服务而引起的任何损害或经济损失，1号店承担的全部责任均不超过用户所购买的与该索赔有关的商品价格。这些责任限制条款将在法律所允许的最大限度内适用，并在用户资格被撤销或终止后仍继续有效。
+ ②上海益实多电子商务有限公司及其关联公司不担保1号店网站提供给用户的全部信息或从1号店网站发出的电子信件没有病毒或其他有害成分。 
+ 
+ 六、 服务的中断和终止：
+ 1. 如用户向1号店提出注销用户身份时，经1号店审核同意，由1号店注销该用户，用户即解除与1号店的服务协议关系。但注销该用户账号后，1号店仍保留下列权利：
+ ① 1号店有权保留该用户的注册信息及以前的交易行为记录； 
+ ②如用户在注销前在1号店交易平台上存在违法行为或违反本协议的行为，1号店仍可行使本服务协议所规定的权利。
+ 2. 在下列情况下，1号店可以通过注销用户的方式终止服务： 
+ ① 在用户违反本服务协议相关规定时，1号店有权终止向该用户提供服务。但如该用户在1号店终止提供服务后，再一次直接或间接或以他人名义注册为1号店用户的，1号店有权再次单方面终止向该用户提供服务；
+ ② 如1号店通过用户提供的信息与用户联系时，发现用户在注册时填写的电子邮箱已不存在或无法接收电子邮件的，经1号店以其它联系方式通知用户更改，而用户在三个工作日内仍未能提供新的电子邮箱地址的，1号店有权终止向该用户提供服务；
+ ③ 一经1号店发现用户注册信息中主要内容是虚假的，1号店有权随时终止向该用户提供服务； 
+ ④ 本服务协议终止或更新时，用户明示不愿接受新的服务协议的； 
+ ⑤ 其它1号店认为需终止服务的情况。 
+ 
+ 七、 适用的法律和管辖权
+ 本协议适用中华人民共和国的法律，所有的争端将诉诸于1号店所在地的人民法院。
+ 
+ 八、 版权
+ 1. 1号店网站上的图表、标识、网页页眉、按钮图标、文字、服务品名等标示在网站上的信息都是上海益实多电子商务有限公司的财产，受中国和国际知识产权法的保护。未经1号店许可，任何人不得使用、复制或用作其他用途。在1号店网站上出现的其他商标是其商标权利人各自的财产。未经上海益实多电子商务有限公司或相关商标所有人的书面许可，任何第三方都不得使用上述标示在1号店网站上的信息。
+ 2. 1号店用户发表的文章仅代表作者本人观点，与1号店立场无关。作者文责自负。 
+ 3. 1号店有权将用户在本网站发表的商品使用体验、商品讨论或图片进行使用或者与其他人合作使用，使用范围包括但不限于网站、电子杂志、杂志、刊物等，使用时需为作者署名，以发表文章时注明的署名为准。文章有附带版权声明者除外。
+ 4. 用户在1号店网站上发表的文章及图片（包括转贴的文章及图片）版权仅归原作者所有，若作者有版权声明或原作从其它网站转载而附带有原版权声明者，其版权归属以附带声明为准。 
+ 任何转载、引用发表于1号店的版权文章须符合以下规范： 
+ ① 用于非商业、非盈利、非广告性目的时需注明作者及文章及图片的出处为1号店或“www.yihaodian.com”。
+ ② 用于商业、盈利、广告性目的时需征得文章或图片原作者的同意，并注明作者姓名、授权范围及原作出处1号店或“www.yihaodian.com”。
+ ③ 任何文章或图片的修改或删除均应保持作者原意并征求原作者同意，并注明授权范围。
+ 
+ 九、 信息保护
+ 1. 用户个人信息的使用：
+ ① 1号店不会向任何人出售或出借用户个人信息，除非事先得到用户得许可。
+ ② 1号店可使用用户的个人信息为用户提供服务，如向用户发出商品和服务信息等情况，或经用户同意与1号店合作伙伴共享信息。
+ 2. 用户个人信息披露：用户的个人信息将在下述情况下部分或全部被披露：
+ ① 经用户同意，向第三方披露； 
+ ② 根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；
+ ③ 如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露； 
+ ④ 为提供用户所要求的商品和服务，而必须和第三方分享用户的个人信息； 
+ ⑤ 其他1号店根据法律或者网站政策认为合适的披露。 
+ 3. 信息安全： 
+ ① 1号店账户和提现功能有密码保护，请用户妥善保管账户及密码信息；
+ ② 如果用户发现自己的个人信息泄密，尤其是1号店账户及密码或提现密码发生泄露，请用户立即联络1号店客服，以便1号店采取相应措施。
+ 4. Cookie的使用规则： 
+ ① 通过1号店所设Cookie所取得的有关信息，将适用本规则；
+ ② 在1号店上发布广告的公司通过广告在用户计算机上设定的Cookies，将按该等公司的隐私权政策使用；
+ ③ 编辑和删除个人信息的权限：用户可以点击我的1号店对用户的个人信息进行编辑和删除，除非1号店另有规定。"</string>
+    <string name="help">使用帮助</string>
+</resources>

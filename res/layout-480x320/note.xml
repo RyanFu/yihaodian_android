@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/titlebar" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="42.0px"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0px">
+            <TextView android:textSize="20.0px" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="TextView" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="16.0px" android:textColor="#ffb8171c" android:gravity="center_horizontal" android:id="@id/note_marquee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:layout_marginBottom="10.0px" android:text="@string/note_text_add" android:layout_below="@id/titlebar" />
+    <View android:id="@id/view" android:background="@drawable/note_red" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/note_marquee" />
+    <ScrollView android:orientation="vertical" android:id="@id/note_result_scroll" android:visibility="gone" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="49.0px" android:layout_weight="1.0" android:layout_below="@id/view">
+        <LinearLayout android:orientation="vertical" android:id="@id/note_result_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </ScrollView>
+    <RelativeLayout android:orientation="vertical" android:id="@id/note_add_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/view">
+        <LinearLayout android:orientation="horizontal" android:id="@id/linear_edit" android:background="@drawable/search_label_frame_bg" android:layout_width="fill_parent" android:layout_height="@dimen/search_label_background">
+            <EditText android:textSize="14.0px" android:id="@id/note_edit" android:background="@drawable/search_edit01_bg" android:paddingLeft="15.0px" android:paddingRight="10.0px" android:paddingBottom="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="15.0px" android:layout_marginRight="15.0px" android:singleLine="true" android:maxLength="50" android:layout_weight="1.0" />
+            <Button android:id="@id/note_add_btn" android:background="@drawable/note_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0px" android:layout_marginTop="15.0px" android:layout_marginRight="11.0px" android:layout_marginBottom="10.0px" />
+        </LinearLayout>
+        <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="106.0px" android:layout_below="@id/linear_edit">
+            <LinearLayout android:orientation="vertical" android:id="@id/note_linear_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+        <View android:id="@id/view_bottom" android:background="@drawable/note_red" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="104.0px" android:layout_above="@id/note_search_btn" android:layout_alignParentBottom="true" />
+        <Button android:id="@id/note_search_btn" android:layout_marginTop="8.0px" android:layout_marginBottom="57.0px" android:text="@string/note_search" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/big_redbtn_style" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:layout_below="@id/linear_edit">
+            <ListView android:id="@id/note_list" android:background="@drawable/search_longtail_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@null" android:divider="#ffbbbbbb" android:dividerHeight="1.0px" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:layout_weight="1.0">
+        <ListView android:scrollbarStyle="insideOverlay" android:id="@id/type_list" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/search_result_product_pressed" android:cacheColorHint="@null" android:divider="@drawable/divider02" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

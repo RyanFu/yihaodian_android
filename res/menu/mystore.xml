@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_message" android:id="@id/menu_message" android:title="@string/menu_message" />
+    <item android:icon="@drawable/ic_menu_myorder" android:id="@id/menu_myorder" android:title="@string/menu_myorder" />
+    <item android:icon="@drawable/ic_menu_favorite" android:id="@id/menu_favorite" android:title="@string/menu_favorite" />
+    <item android:icon="@drawable/ic_menu_logout" android:id="@id/menu_logout" android:title="@string/menu_logout" />
+    <item android:icon="@drawable/ic_menu_return" android:id="@id/menu_return" android:title="@string/menu_return" />
+</menu>

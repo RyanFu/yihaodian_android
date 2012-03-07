@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:title="http://schemas.android.com/apk/res/com.thestore.main"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ListView android:scrollbarStyle="insideOverlay" android:id="@id/order_list" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/search_result_product_pressed" android:cacheColorHint="@null" android:divider="@drawable/divider02" />
+        </LinearLayout>
+        <Button android:layout_gravity="bottom|center" android:id="@id/showorder_show_button" android:layout_width="280.0dip" android:layout_marginTop="5.0px" android:layout_marginBottom="5.0px" android:text="晒到新浪微博" style="@style/big_redbtn_style" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

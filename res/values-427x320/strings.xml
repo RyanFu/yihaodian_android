@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="order_addressedit_title_str">送货 地址编辑</string>
+    <string name="about_version_str">掌上1号店 V%1$s for android 240x320</string>
+</resources>

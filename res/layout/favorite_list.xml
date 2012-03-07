@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:btn="http://schemas.android.com/apk/res/com.thestore.main">
+    <LinearLayout android:orientation="horizontal" android:id="@id/favorite_linear" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/product_frame" android:layout_width="67.0px" android:layout_height="67.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="5.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="5.0px">
+            <ImageView android:id="@id/favorite_img" android:layout_width="56.0px" android:layout_height="56.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="5.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="6.0px" android:src="@drawable/img_default" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:layout_weight="1.0">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/favorite_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:layout_marginBottom="10.0px" android:singleLine="true" />
+            <TextView android:textSize="10.0px" android:textColor="#ffa72024" android:id="@id/favorite_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" />
+        </LinearLayout>
+        <com.thestore.util.MyButton android:layout_gravity="center_vertical" android:id="@id/favorite_del_img" android:focusable="false" android:layout_width="25.0px" android:layout_height="25.0px" android:layout_marginRight="10.0px" btn:button_normal="@drawable/cart_del_normal" btn:button_press="@drawable/cart_del_press" />
+    </LinearLayout>
+</LinearLayout>

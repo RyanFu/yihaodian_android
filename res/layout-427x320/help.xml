@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:layout_weight="1.0">
+        <ExpandableListView android:layout_gravity="right" android:id="@id/user_help" android:background="@drawable/help" android:scrollbars="none" android:fadingEdgeLength="0.0px" android:alwaysDrawnWithCache="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0px" android:layout_marginTop="10.0px" android:layout_marginRight="9.0px" android:cacheColorHint="#00000000" android:groupIndicator="@drawable/right_arrow" android:indicatorRight="0.0px" android:childDivider="@drawable/divid" android:divider="#ffdfca9f" android:dividerHeight="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

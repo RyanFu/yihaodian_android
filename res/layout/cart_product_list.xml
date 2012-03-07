@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cart_product_linear" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:btn="http://schemas.android.com/apk/res/com.thestore.main">
+    <LinearLayout android:orientation="vertical" android:id="@id/cart_present_layout" android:background="@drawable/present_title_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/present_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/cart_result_desc" android:paddingLeft="10.0px" android:paddingRight="10.0px" android:layout_width="fill_parent" android:layout_height="67.0px" android:layout_marginTop="3.0px" android:layout_marginBottom="3.0px">
+        <LinearLayout android:background="@drawable/product_frame" android:layout_width="67.0px" android:layout_height="67.0px">
+            <ImageView android:layout_gravity="center" android:id="@id/cart_product_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginTop="5.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="6.0px" android:src="@drawable/img_default" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="5.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:layout_weight="1.0">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/cart_product_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12.0px" android:textColor="#ff26977b" android:id="@id/cart_product_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0px" />
+            <TextView android:textSize="12.0px" android:textColor="#ffa72024" android:id="@id/cart_product_isbuy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" />
+        </LinearLayout>
+        <com.thestore.util.MyButton android:layout_gravity="center_vertical" android:id="@id/cart_del_img" android:focusable="false" android:clickable="false" android:layout_width="25.0px" android:layout_height="25.0px" btn:button_normal="@drawable/cart_del_normal" btn:button_press="@drawable/cart_del_press" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/cart_operate_layout" android:background="@drawable/search_product_operate" android:paddingTop="10.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0px">
+        <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:text="@string/cart_product_count_title" />
+        <Button android:id="@id/cart_sub_num" android:background="@drawable/cart_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" />
+        <TextView android:id="@id/cart_edit_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:singleLine="true" android:maxLength="3" android:numeric="integer" android:inputType="none" style="@style/TheStore.CartEdit" />
+        <Button android:id="@id/cart_add_num" android:background="@drawable/cart_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" />
+        <com.thestore.util.MyButton android:id="@id/cart_op_collect" android:layout_width="40.0px" android:layout_height="60.0px" android:layout_marginLeft="10.0px" btn:button_normal="@drawable/result_collection_normal" btn:button_press="@drawable/result_collection_press" />
+        <com.thestore.util.MyButton android:id="@id/cart_op_share" android:layout_width="40.0px" android:layout_height="60.0px" android:layout_marginLeft="10.0px" btn:button_normal="@drawable/cart_share_normal" btn:button_press="@drawable/cart_share_press" />
+    </LinearLayout>
+</LinearLayout>

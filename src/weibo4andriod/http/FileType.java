@@ -1,0 +1,301 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+
+package weibo4andriod.http;
+
+import java.io.File;
+
+public class FileType
+{
+
+    public FileType()
+    {
+        String as[][] = new String[64][];
+        String as1[] = new String[2];
+        as1[0] = ".3gp";
+        as1[1] = "video/3gpp";
+        as[0] = as1;
+        String as2[] = new String[2];
+        as2[0] = ".apk";
+        as2[1] = "application/vnd.android.package-archive";
+        as[1] = as2;
+        String as3[] = new String[2];
+        as3[0] = ".asf";
+        as3[1] = "video/x-ms-asf";
+        as[2] = as3;
+        String as4[] = new String[2];
+        as4[0] = ".avi";
+        as4[1] = "video/x-msvideo";
+        as[3] = as4;
+        String as5[] = new String[2];
+        as5[0] = ".bin";
+        as5[1] = "application/octet-stream";
+        as[4] = as5;
+        String as6[] = new String[2];
+        as6[0] = ".bmp";
+        as6[1] = "image/bmp";
+        as[5] = as6;
+        String as7[] = new String[2];
+        as7[0] = ".c";
+        as7[1] = "text/plain";
+        as[6] = as7;
+        String as8[] = new String[2];
+        as8[0] = ".class";
+        as8[1] = "application/octet-stream";
+        as[7] = as8;
+        String as9[] = new String[2];
+        as9[0] = ".conf";
+        as9[1] = "text/plain";
+        as[8] = as9;
+        String as10[] = new String[2];
+        as10[0] = ".cpp";
+        as10[1] = "text/plain";
+        as[9] = as10;
+        String as11[] = new String[2];
+        as11[0] = ".doc";
+        as11[1] = "application/msword";
+        as[10] = as11;
+        String as12[] = new String[2];
+        as12[0] = ".exe";
+        as12[1] = "application/octet-stream";
+        as[11] = as12;
+        String as13[] = new String[2];
+        as13[0] = ".gif";
+        as13[1] = "image/gif";
+        as[12] = as13;
+        String as14[] = new String[2];
+        as14[0] = ".gtar";
+        as14[1] = "application/x-gtar";
+        as[13] = as14;
+        String as15[] = new String[2];
+        as15[0] = ".gz";
+        as15[1] = "application/x-gzip";
+        as[14] = as15;
+        String as16[] = new String[2];
+        as16[0] = ".h";
+        as16[1] = "text/plain";
+        as[15] = as16;
+        String as17[] = new String[2];
+        as17[0] = ".htm";
+        as17[1] = "text/html";
+        as[16] = as17;
+        String as18[] = new String[2];
+        as18[0] = ".html";
+        as18[1] = "text/html";
+        as[17] = as18;
+        String as19[] = new String[2];
+        as19[0] = ".jar";
+        as19[1] = "application/java-archive";
+        as[18] = as19;
+        String as20[] = new String[2];
+        as20[0] = ".java";
+        as20[1] = "text/plain";
+        as[19] = as20;
+        String as21[] = new String[2];
+        as21[0] = ".jpeg";
+        as21[1] = "image/jpeg";
+        as[20] = as21;
+        String as22[] = new String[2];
+        as22[0] = ".jpg";
+        as22[1] = "image/jpeg";
+        as[21] = as22;
+        String as23[] = new String[2];
+        as23[0] = ".js";
+        as23[1] = "application/x-javascript";
+        as[22] = as23;
+        String as24[] = new String[2];
+        as24[0] = ".log";
+        as24[1] = "text/plain";
+        as[23] = as24;
+        String as25[] = new String[2];
+        as25[0] = ".m3u";
+        as25[1] = "audio/x-mpegurl";
+        as[24] = as25;
+        String as26[] = new String[2];
+        as26[0] = ".m4a";
+        as26[1] = "audio/mp4a-latm";
+        as[25] = as26;
+        String as27[] = new String[2];
+        as27[0] = ".m4b";
+        as27[1] = "audio/mp4a-latm";
+        as[26] = as27;
+        String as28[] = new String[2];
+        as28[0] = ".m4p";
+        as28[1] = "audio/mp4a-latm";
+        as[27] = as28;
+        String as29[] = new String[2];
+        as29[0] = ".m4u";
+        as29[1] = "video/vnd.mpegurl";
+        as[28] = as29;
+        String as30[] = new String[2];
+        as30[0] = ".m4v";
+        as30[1] = "video/x-m4v";
+        as[29] = as30;
+        String as31[] = new String[2];
+        as31[0] = ".mov";
+        as31[1] = "video/quicktime";
+        as[30] = as31;
+        String as32[] = new String[2];
+        as32[0] = ".mp2";
+        as32[1] = "audio/x-mpeg";
+        as[31] = as32;
+        String as33[] = new String[2];
+        as33[0] = ".mp3";
+        as33[1] = "audio/x-mpeg";
+        as[32] = as33;
+        String as34[] = new String[2];
+        as34[0] = ".mp4";
+        as34[1] = "video/mp4";
+        as[33] = as34;
+        String as35[] = new String[2];
+        as35[0] = ".mpc";
+        as35[1] = "application/vnd.mpohun.certificate";
+        as[34] = as35;
+        String as36[] = new String[2];
+        as36[0] = ".mpe";
+        as36[1] = "video/mpeg";
+        as[35] = as36;
+        String as37[] = new String[2];
+        as37[0] = ".mpeg";
+        as37[1] = "video/mpeg";
+        as[36] = as37;
+        String as38[] = new String[2];
+        as38[0] = ".mpg";
+        as38[1] = "video/mpeg";
+        as[37] = as38;
+        String as39[] = new String[2];
+        as39[0] = ".mpg4";
+        as39[1] = "video/mp4";
+        as[38] = as39;
+        String as40[] = new String[2];
+        as40[0] = ".mpga";
+        as40[1] = "audio/mpeg";
+        as[39] = as40;
+        String as41[] = new String[2];
+        as41[0] = ".msg";
+        as41[1] = "application/vnd.ms-outlook";
+        as[40] = as41;
+        String as42[] = new String[2];
+        as42[0] = ".ogg";
+        as42[1] = "audio/ogg";
+        as[41] = as42;
+        String as43[] = new String[2];
+        as43[0] = ".pdf";
+        as43[1] = "application/pdf";
+        as[42] = as43;
+        String as44[] = new String[2];
+        as44[0] = ".png";
+        as44[1] = "image/png";
+        as[43] = as44;
+        String as45[] = new String[2];
+        as45[0] = ".pps";
+        as45[1] = "application/vnd.ms-powerpoint";
+        as[44] = as45;
+        String as46[] = new String[2];
+        as46[0] = ".ppt";
+        as46[1] = "application/vnd.ms-powerpoint";
+        as[45] = as46;
+        String as47[] = new String[2];
+        as47[0] = ".prop";
+        as47[1] = "text/plain";
+        as[46] = as47;
+        String as48[] = new String[2];
+        as48[0] = ".rar";
+        as48[1] = "application/x-rar-compressed";
+        as[47] = as48;
+        String as49[] = new String[2];
+        as49[0] = ".rc";
+        as49[1] = "text/plain";
+        as[48] = as49;
+        String as50[] = new String[2];
+        as50[0] = ".rmvb";
+        as50[1] = "audio/x-pn-realaudio";
+        as[49] = as50;
+        String as51[] = new String[2];
+        as51[0] = ".rtf";
+        as51[1] = "application/rtf";
+        as[50] = as51;
+        String as52[] = new String[2];
+        as52[0] = ".sh";
+        as52[1] = "text/plain";
+        as[51] = as52;
+        String as53[] = new String[2];
+        as53[0] = ".tar";
+        as53[1] = "application/x-tar";
+        as[52] = as53;
+        String as54[] = new String[2];
+        as54[0] = ".tgz";
+        as54[1] = "application/x-compressed";
+        as[53] = as54;
+        String as55[] = new String[2];
+        as55[0] = ".txt";
+        as55[1] = "text/plain";
+        as[54] = as55;
+        String as56[] = new String[2];
+        as56[0] = ".wav";
+        as56[1] = "audio/x-wav";
+        as[55] = as56;
+        String as57[] = new String[2];
+        as57[0] = ".wma";
+        as57[1] = "audio/x-ms-wma";
+        as[56] = as57;
+        String as58[] = new String[2];
+        as58[0] = ".wmv";
+        as58[1] = "audio/x-ms-wmv";
+        as[57] = as58;
+        String as59[] = new String[2];
+        as59[0] = ".wps";
+        as59[1] = "application/vnd.ms-works";
+        as[58] = as59;
+        String as60[] = new String[2];
+        as60[0] = ".xml";
+        as60[1] = "text/xml";
+        as[59] = as60;
+        String as61[] = new String[2];
+        as61[0] = ".xml";
+        as61[1] = "text/plain";
+        as[60] = as61;
+        String as62[] = new String[2];
+        as62[0] = ".z";
+        as62[1] = "application/x-compress";
+        as[61] = as62;
+        String as63[] = new String[2];
+        as63[0] = ".zip";
+        as63[1] = "application/zip";
+        as[62] = as63;
+        String as64[] = new String[2];
+        as64[0] = "";
+        as64[1] = "*/*";
+        as[63] = as64;
+        MIME_MapTable = as;
+    }
+
+    public String getMIMEType(File file)
+    {
+        String s;
+        String s1;
+        int i;
+        s = "*/*";
+        s1 = file.getName();
+        i = s1.lastIndexOf(".");
+        if(i >= 0) goto _L2; else goto _L1
+_L1:
+        return s;
+_L2:
+        String s2 = s1.substring(i, s1.length()).toLowerCase();
+        if(s2 != "")
+        {
+            String s3 = s;
+            for(int j = 0; j < MIME_MapTable.length; j++)
+                if(s2.equals(MIME_MapTable[j][0]))
+                    s3 = MIME_MapTable[j][1];
+
+            s = s3;
+        }
+        if(true) goto _L1; else goto _L3
+_L3:
+    }
+
+    private final String MIME_MapTable[][];
+}

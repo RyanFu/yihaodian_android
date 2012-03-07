@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/experince_text_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0px" android:textColor="#ffa41010" android:id="@id/comment_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="10.0px" />
+        <TextView android:textSize="10.0px" android:textColor="#ff666666" android:id="@id/comment_createdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="10.0px" />
+        <TextView android:textSize="12.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="10.0px" android:text="评分" />
+        <RatingBar android:id="@id/ratingbar" android:clickable="false" android:layout_width="wrap_content" android:layout_height="12.0px" android:layout_marginLeft="3.0px" android:layout_marginTop="10.0px" android:numStars="5" style="@style/foodRatingBar" />
+    </LinearLayout>
+    <TextView android:textSize="12.0px" android:id="@id/comment_good" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="10.0px" android:lineSpacingExtra="6.0px" />
+    <View android:id="@id/comment_img" android:background="@drawable/point_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0px" />
+</LinearLayout>

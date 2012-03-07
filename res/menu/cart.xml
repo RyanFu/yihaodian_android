@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_checkout" android:id="@id/menu_checkout" android:title="@string/menu_checkout" />
+    <item android:icon="@drawable/ic_menu_continuetobuy" android:id="@id/menu_continuetobuy" android:title="@string/menu_continuetobuy" />
+    <item android:icon="@drawable/ic_menu_return" android:id="@id/menu_return" android:title="@string/menu_return" />
+</menu>

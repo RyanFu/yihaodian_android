@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <TextView android:textSize="18.0px" android:textColor="#ff595959" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_gap" android:layout_marginTop="30.0px" android:layout_marginRight="@dimen/home_gap" android:text="@string/barcode_text_title" />
+    <TextView android:textSize="16.0px" android:textColor="#ff797979" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_gap" android:layout_marginRight="@dimen/home_gap" android:text="@string/barcode_text_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_gap" android:layout_marginTop="10.0px" android:layout_marginRight="@dimen/home_gap">
+        <EditText android:id="@id/barcode_edit" android:layout_width="211.0px" android:layout_height="wrap_content" android:inputType="number" style="@style/TheStore.CodeEdit" />
+        <Button android:gravity="center" android:layout_gravity="center" android:id="@id/barcode_submit" android:layout_width="80.0px" android:layout_height="45.0px" android:layout_marginLeft="10.0px" android:text="@string/barcode_submit" style="@style/big_redbtn_style" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

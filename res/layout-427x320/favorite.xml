@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ScrollView android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/favorite_full_linear" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/favorite_product_null_linear" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_weight="1.0">
+                <TextView android:textSize="14.0px" android:textColor="#ff333333" android:background="@drawable/border" android:paddingLeft="10.0px" android:paddingTop="20.0px" android:paddingBottom="20.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/favorite_null" />
+                <Button android:layout_gravity="center_horizontal" android:id="@id/favorite_null_btn" android:layout_marginTop="10.0px" android:text="@string/favorite_null_btn" style="@style/big_redbtn_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

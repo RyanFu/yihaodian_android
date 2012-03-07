@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ScrollView android:orientation="vertical" android:background="#fff8eeda" android:scrollbars="none" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0px" android:layout_marginTop="10.0px" android:text="@string/order_coupon_title01_str" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px">
+                <EditText android:textSize="14.0px" android:id="@id/coupon_code" android:background="@drawable/coupon_bg" android:paddingLeft="5.0px" android:paddingRight="5.0px" android:layout_width="216.0px" android:layout_height="31.0px" android:layout_marginRight="5.0px" android:singleLine="true" android:layout_weight="1.0" />
+                <Button android:layout_gravity="center_horizontal" android:id="@id/coupon_usebtn" android:text="@string/order_coupon_usebtn_str" style="@style/small_redbtn_style" />
+            </LinearLayout>
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/coupon_list_title_str" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0px" android:layout_marginTop="10.0px" android:text="@string/order_coupon_title03" />
+            <LinearLayout android:orientation="vertical" android:id="@id/coupon_list_layout" android:background="@drawable/border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

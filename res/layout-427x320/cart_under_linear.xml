@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:btn="http://schemas.android.com/apk/res/com.thestore.main">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px">
+        <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0px" android:text="@string/cart_product_count_str" />
+        <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/cart_product_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginBottom="17.0px">
+        <TextView android:textSize="16.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cart_totalprice_str" />
+        <TextView android:textSize="16.0px" android:textColor="#ffa72024" android:id="@id/cart_product_totalprice" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0px">
+        <Button android:textSize="14.0px" android:textColor="#ffffffff" android:id="@id/cart_tocheckout_btn" android:background="@drawable/cart_checkout_normal" android:paddingLeft="40.0px" android:layout_width="135.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:text="@string/cart_checkout_str" />
+        <Button android:textSize="14.0px" android:textColor="#ffffffff" android:id="@id/cart_toshopping_btn" android:layout_width="135.0dip" android:text="@string/cart_toshopping_btn_str" style="@style/big_redbtn_style" />
+    </LinearLayout>
+</LinearLayout>

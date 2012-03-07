@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TheStore" parent="@android:style/Widget" />
+    <style name="Theme" parent="@android:style/Theme" />
+    <style name="TheStore.UserBarBackground" parent="@style/TheStore">
+        <item name="android:background">#ffff3300</item>
+    </style>
+    <style name="TheStore.EditText" parent="@style/TheStore">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/user_frame</item>
+        <item name="android:padding">11.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="TheStore.CodeEdit" parent="@style/TheStore">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/code_frame</item>
+        <item name="android:padding">11.0dip</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">1.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="TheStore.CartEdit" parent="@style/TheStore">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/cart_edit</item>
+        <item name="android:paddingLeft">5.0px</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">40.0px</item>
+        <item name="android:layout_height">27.0px</item>
+    </style>
+    <style name="TheStore.Button" parent="@style/TheStore">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">15.0</item>
+    </style>
+    <style name="TheStore.ShopBtn" parent="@style/TheStore">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowRadius">15.0</item>
+    </style>
+    <style name="TheStore.Scan" parent="@style/TheStore">
+        <item name="android:background">@drawable/scan</item>
+    </style>
+    <style name="TheStore.Note" parent="@style/TheStore">
+        <item name="android:background">@drawable/note</item>
+    </style>
+    <style name="TheStore.HomeSearch" parent="@style/TheStore">
+        <item name="android:background">@drawable/home_search</item>
+    </style>
+    <style name="TheStore.NewBtn" parent="@style/TheStore">
+        <item name="android:background">@drawable/new_btn</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">140.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="TheStore.TextView" parent="@style/TheStore">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="TheStore.CheckBox" parent="@style/TheStore">
+        <item name="android:background">@drawable/btn_check_label_background</item>
+        <item name="android:clickable">true</item>
+        <item name="android:button">@drawable/checkbox</item>
+    </style>
+    <style name="TheStore.Search" parent="@style/TheStore">
+        <item name="android:background">@drawable/frame_search</item>
+    </style>
+    <style name="TheStore.HomeUser" parent="@style/TheStore">
+        <item name="android:background">@drawable/home_user</item>
+    </style>
+    <style name="TheStore.HomeProvince" parent="@style/TheStore">
+        <item name="android:background">@drawable/home_province</item>
+    </style>
+    <style name="Theme.MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+    </style>
+    <style name="Right_img_hot">
+        <item name="android:background">@drawable/right_img_hot</item>
+    </style>
+    <style name="Left_img_hot">
+        <item name="android:background">@drawable/left_img_hot</item>
+    </style>
+    <style name="Theme.Code" parent="@style/Theme">
+        <item name="android:buttonStyle">@style/TheStore.Button</item>
+        <item name="android:editTextStyle">@style/TheStore.CodeEdit</item>
+    </style>
+    <style name="Theme.User" parent="@style/Theme">
+        <item name="android:checkboxStyle">@style/TheStore.CheckBox</item>
+        <item name="android:editTextStyle">@style/TheStore.EditText</item>
+    </style>
+    <style name="Theme.HomeTop" parent="@style/Theme">
+        <item name="android:windowTitleSize">60.0px</item>
+        <item name="android:windowTitleBackgroundStyle">@null</item>
+        <item name="android:shadowColor">#ffff0000</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="Theme.More" parent="@style/Theme">
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+    <style name="Feekback">
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+    <style name="Bottom_home">
+        <item name="android:background">@drawable/bottom_home</item>
+    </style>
+    <style name="Bottom_search">
+        <item name="android:background">@drawable/bottom_search</item>
+    </style>
+    <style name="Bottom_type">
+        <item name="android:background">@drawable/bottom_type</item>
+    </style>
+    <style name="Bottom_cart">
+        <item name="android:background">@drawable/bottom_cart</item>
+    </style>
+    <style name="Bottom_more">
+        <item name="android:background">@drawable/bottom_more</item>
+    </style>
+    <style name="Theme.Search" parent="@style/Theme">
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+    <style name="Search_btn">
+        <item name="android:background">@drawable/search_btn</item>
+    </style>
+    <style name="Cart_checkout_btn">
+        <item name="android:background">@drawable/checkout_btn</item>
+    </style>
+    <style name="small_redbtn_style">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">79.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>
+    <style name="big_redbtn_style">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_big_default</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">140.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+    </style>
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">12.0dip</item>
+        <item name="android:progressDrawable">@drawable/rating_style</item>
+        <item name="android:minHeight">10.0dip</item>
+    </style>
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+</resources>

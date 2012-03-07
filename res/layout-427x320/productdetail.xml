@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/productdetail_linear" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mybtn="http://schemas.android.com/apk/res/com.thestore.main"
+  xmlns:home="http://schemas.android.com/apk/res/com.thestore.main">
+    <include layout="@layout/title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/productdetail_scan_result_layout" android:background="#ffe4e4e4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="11.0px" android:layout_marginRight="10.0px">
+        <TextView android:textSize="14.0px" android:textColor="#ff666666" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:text="@string/productdetail_scan_title" />
+        <TextView android:textSize="14.0px" android:textColor="#ff5f5f5f" android:gravity="center_vertical" android:id="@id/productdetail_scan_result_textview" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="#ffc5c0c0" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="32.0px" android:layout_marginLeft="36.0px" android:layout_marginTop="10.0px" android:layout_marginRight="36.0px">
+        <TextView android:textSize="16.0px" android:textColor="#ffa72024" android:gravity="center" android:id="@id/productdetail_intro_text" android:background="@drawable/productdetail_title_press" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="@string/productdetail_introduction" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/productdetail_desc_text" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="@string/productdetail_descroption" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/productdetail_eval_text" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="@string/productdetail_evaluation" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="#ffa72024" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" />
+    <ScrollView android:orientation="vertical" android:id="@id/productdetail_scrollview" android:background="#ffffffff" android:scrollbars="none" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/productdetail_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/productdetail_intro_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="6.0px" android:layout_marginRight="10.0px">
+                <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/productdetail_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+                    <ImageView android:id="@id/productdetail_img_leftarrow" android:background="@drawable/left_arrow" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="31.0px" android:layout_marginTop="70.0px" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/productdetail_img" android:padding="2.0px" android:layout_width="162.0px" android:layout_height="162.0px" android:layout_marginLeft="19.0px" android:layout_marginTop="5.0px" android:layout_marginBottom="5.0px">
+                        <Gallery android:gravity="center" android:id="@id/productdetail_image_g" android:layout_width="158.0px" android:layout_height="158.0px" android:spacing="20.0px" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/productdetail_img_rightarrow" android:background="@drawable/right_arrow" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0px" android:layout_marginTop="70.0px" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0px">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:text="@string/productdetail_price_str" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0px" android:textColor="#ffa72024" android:id="@id/productdetail_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff26977b" android:id="@id/productdetail_stocks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" />
+                </LinearLayout>
+                <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_gravity="fill_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:text="@string/productdetail_quantity_str" />
+                    <Button android:layout_gravity="fill_horizontal|center" android:id="@id/productdetail_sub" android:background="@drawable/sub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <EditText android:textSize="24.0px" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="fill_horizontal|center" android:id="@id/productdetail_quantity" android:background="@drawable/num" android:layout_width="60.0px" android:layout_height="36.0px" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:lines="1" android:maxLength="3" android:numeric="integer" />
+                    <Button android:layout_gravity="fill_horizontal|center" android:id="@id/productdetail_add" android:background="@drawable/add" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/productdetail_buy" android:background="@drawable/detail_buy_btn_normal" android:layout_width="286.0px" android:layout_height="39.0px" android:layout_marginLeft="9.0px" android:layout_marginTop="24.0px">
+                    <ImageView android:background="@drawable/buy_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="16.0px" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:text="@string/productdetail_buy_btn" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0px" android:layout_marginBottom="20.0px">
+                    <Button android:gravity="center" android:id="@id/productdetail_favorite" android:paddingLeft="10.0px" android:layout_marginLeft="10.0px" android:text="@string/productdetail_favorite_btn" android:drawableLeft="@drawable/favorite_icon" style="@style/big_redbtn_style" />
+                    <Button android:gravity="center" android:id="@id/productdetail_share" android:paddingLeft="10.0px" android:layout_marginLeft="6.0px" android:text="@string/productdetail_share_btn" android:drawableLeft="@drawable/share_icon" style="@style/big_redbtn_style" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/productdetail_desc_layout" android:background="#ffcccccc" android:visibility="gone" android:scrollbars="vertical" android:layout_width="300.0px" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginTop="12.0px" android:layout_marginRight="15.0px" android:layout_marginBottom="60.0px">
+                <WebView android:id="@id/productdetail_desc_webview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/productdetail_comment_layout" android:visibility="gone" android:layout_width="300.0px" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0px">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0px" android:layout_height="fill_parent">
+                        <TextView android:textSize="24.0px" android:textColor="#ffe26500" android:gravity="center" android:id="@id/comment_ratingtotalcount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100%" />
+                        <TextView android:textSize="12.0px" android:textColor="#ffe26500" android:gravity="center" android:id="@id/comment_rating_str" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="好评" />
+                    </LinearLayout>
+                    <View android:background="#ffe4e4e4" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                    <LinearLayout android:orientation="vertical" android:paddingTop="10.0px" android:paddingBottom="5.0px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0px">
+                        <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:layout_gravity="fill_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="好评" />
+                            <ProgressBar android:layout_gravity="fill_horizontal" android:id="@id/goodrating_prograssbar" android:layout_width="120.0px" android:layout_height="11.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="3.0px" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:layout_gravity="fill_horizontal" android:id="@id/goodrating_experience_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:singleLine="true" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px">
+                            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:layout_gravity="fill_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="中评" />
+                            <ProgressBar android:layout_gravity="fill_horizontal" android:id="@id/middlerating_prograssbar" android:layout_width="120.0px" android:layout_height="11.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="3.0px" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:layout_gravity="fill_horizontal" android:id="@id/middlerating_experience_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:singleLine="true" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px">
+                            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:layout_gravity="fill_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="差评" />
+                            <ProgressBar android:layout_gravity="fill_horizontal" android:id="@id/badrating_prograssbar" android:layout_width="120.0px" android:layout_height="11.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="3.0px" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textSize="12.0px" android:textColor="#ff333333" android:layout_gravity="fill_horizontal" android:id="@id/badrating_experience_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:singleLine="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="@drawable/point_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0px" />
+                <LinearLayout android:orientation="vertical" android:id="@id/rating_experience_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

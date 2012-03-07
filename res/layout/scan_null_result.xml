@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/scan_result_linear" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <TextView android:textSize="18.0px" android:textColor="#ffbd0000" android:id="@id/scan_result_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="16.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:layout_marginTop="13.0px" android:layout_marginBottom="14.0px">
+        <Button android:id="@id/scan_result_rescan_btn" android:layout_marginRight="14.0px" style="@style/big_redbtn_style" />
+        <Button android:id="@id/scan_result_manual_btn" style="@style/big_redbtn_style" />
+    </LinearLayout>
+    <View android:background="#ffa72024" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:background="#ffc77678" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/scan_result_hot_sale" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0px" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:text="@string/scan_result_hot_sale_str" android:layout_weight="1.0" />
+        <TextView android:textSize="18.0px" android:textColor="#ff333333" android:gravity="right" android:id="@id/scan_result_more" android:layout_width="80.0px" android:layout_height="wrap_content" android:layout_marginRight="20.0px" android:text="@string/scan_result_more_str" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" android:layout_weight="1.0">
+        <ListView android:id="@id/hot_sale_list" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/search_result_product_pressed" android:cacheColorHint="@null" android:divider="@drawable/divider02" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

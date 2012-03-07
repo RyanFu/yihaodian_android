@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/more_linear" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ScrollView android:orientation="vertical" android:id="@id/more_scroll" android:background="#fff8eeda" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/more_linear_topfive" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px">
+                <LinearLayout android:id="@id/more_linear_message" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_myStore" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_barcode" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_note" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_hotproduct" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/more_linear_bottomfour" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px">
+                <LinearLayout android:id="@id/more_linear_help" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_feekback" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_about" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_statement" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="2.0sp" />
+                <LinearLayout android:id="@id/more_linear_update" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/more_text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/homeback" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:home="http://schemas.android.com/apk/res/com.thestore.main">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/home_top" android:background="@drawable/home_title" android:layout_width="fill_parent" android:layout_height="66.0px">
+        <Button android:id="@id/home_title_btn" android:layout_width="42.0px" android:layout_height="42.0px" android:layout_marginTop="13.0px" android:layout_marginRight="@dimen/home_gap" android:layout_alignParentRight="true" style="@style/TheStore.HomeProvince" />
+        <Button android:id="@id/home_title_mystroe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0px" android:layout_marginRight="10.0px" android:layout_toLeftOf="@id/home_title_btn" style="@style/TheStore.HomeUser" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/home_search_re" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/home_top">
+        <LinearLayout android:orientation="horizontal" android:id="@id/home_linear_search" android:background="@drawable/home_search_back" android:layout_width="fill_parent" android:layout_height="@dimen/home_search_height">
+            <EditText android:textSize="14.0px" android:id="@id/home_search_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_gap" android:layout_marginTop="8.0px" android:layout_marginRight="15.0px" android:singleLine="true" android:maxLength="50" android:drawableLeft="@drawable/zoom" android:layout_weight="1.0" style="@style/TheStore.Search" />
+            <Button android:id="@id/home_search_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginTop="8.0px" android:layout_marginRight="@dimen/home_gap" style="@style/TheStore.HomeSearch" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/home_re1" android:layout_width="fill_parent" android:layout_height="130.0px" android:layout_marginLeft="@dimen/home_gap" android:layout_marginTop="10.0px" android:layout_marginRight="@dimen/home_gap" android:layout_below="@id/home_search_re">
+        <com.thestore.util.HotView android:id="@id/home_gallery_hot" android:clickable="true" android:layout_width="300.0px" android:layout_height="130.0px" />
+        <ImageView android:id="@id/home_hot_left" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginTop="55.0px" style="@style/Left_img_hot" />
+        <ImageView android:id="@id/home_hot_right" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0px" android:layout_marginRight="5.0px" android:layout_alignParentRight="true" style="@style/Right_img_hot" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/home_linear_mid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="14.0px" android:layout_marginRight="10.0px" android:layout_below="@id/home_re1">
+        <ImageView android:id="@id/home_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TheStore.Note" />
+        <ImageView android:id="@id/home_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" android:layout_weight="1.0" style="@style/TheStore.Scan" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginRight="10.0px" android:layout_below="@id/home_search_re">
+        <ListView android:id="@id/home_list" android:background="@drawable/search_longtail_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@null" android:divider="#ffbbbbbb" android:dividerHeight="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <include layout="@layout/bottom" />
+    </LinearLayout>
+</RelativeLayout>

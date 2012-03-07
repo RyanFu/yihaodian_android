@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ScrollView android:orientation="vertical" android:background="#fff8eeda" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/orderdetail_layout" android:paddingLeft="10.0px" android:paddingTop="10.0px" android:paddingRight="15.0px" android:paddingBottom="10.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/orderdetail_ordercode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:text="@string/orderdetail_ordercode_str" />
+            <TextView android:textSize="16.0px" android:textColor="#ffa10000" android:id="@id/orderdetail_orderstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0px" android:text="@string/orderdetail_ordercode_str" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="12.0px" android:layout_marginRight="10.0px">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="商品总金额：" android:singleLine="true" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff666666" android:gravity="right" android:id="@id/orderdetail_producttotalprice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="运           费：" android:singleLine="true" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff666666" android:gravity="right" android:id="@id/orderdetail_deliveryamount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="12.0px" android:layout_marginRight="10.0px">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="帐 户 抵 扣：" android:singleLine="true" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff5cba9c" android:gravity="right" android:id="@id/orderdetail_accountamount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="抵用券抵扣：" android:singleLine="true" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff5cba9c" android:gravity="right" android:id="@id/orderdetail_couponamount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="12.0px">
+                    <TextView android:textSize="16.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总金额：" android:singleLine="true" />
+                    <TextView android:textSize="16.0px" android:textColor="#ffa72024" android:gravity="right" android:id="@id/orderdetail_paymentyamount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/myorder_productlist_layout" android:background="@drawable/border" android:paddingBottom="8.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/order_operate_button" android:layout_marginTop="10.0dip" style="@style/big_redbtn_style" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:paddingTop="8.0px" android:paddingBottom="8.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:text="@string/orderdetail_receiveinfo_str" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff734d01" android:id="@id/orderdetail_receivename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="8.0px" android:lineSpacingExtra="6.0px" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:text="@string/orderdetail_deliverymethod_str" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff734d01" android:id="@id/orderdetail_deliverymethod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="8.0px" android:lineSpacingExtra="6.0px" />
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:text="@string/orderdetail_paymethod_str" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff734d01" android:id="@id/orderdetail_paymethod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="8.0px" android:lineSpacingExtra="6.0px" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

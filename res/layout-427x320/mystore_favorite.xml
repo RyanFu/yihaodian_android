@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:btn="http://schemas.android.com/apk/res/com.thestore.main">
+    <LinearLayout android:orientation="horizontal" android:id="@id/mystore_favorite_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px">
+        <TextView android:textSize="16.0px" android:textColor="#ff734d01" android:id="@id/mystore_favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mystore_favorite" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0px" android:textColor="#ff734d01" android:id="@id/mystore_favorite_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bottom_more" />
+        <ImageView android:id="@id/mystore_right_img_favorite" android:background="@drawable/right_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" />
+    </LinearLayout>
+    <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mystore_favorite_null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="14.0px">
+        <TextView android:textSize="14.0px" android:textColor="#ff734d01" android:id="@id/mystore_favorite_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mystore_favorite_null" />
+        <ImageView android:id="@id/mystore_right_img" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/mystore_favorite_full" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/product_frame" android:layout_width="67.0px" android:layout_height="67.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px">
+            <ImageView android:layout_gravity="center" android:id="@id/mystore_favorite_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginTop="5.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="6.0px" android:src="@drawable/img_default" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_weight="1.0">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/mystore_favorite_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0px" android:textColor="#ffa20000" android:id="@id/mystore_favorite_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.thestore.util.MyButton android:layout_gravity="center_vertical" android:id="@id/mystore_favorite_del" android:focusable="false" android:layout_width="25.0px" android:layout_height="25.0px" android:layout_marginRight="10.0px" btn:button_normal="@drawable/cart_del_normal" btn:button_press="@drawable/cart_del_press" />
+    </LinearLayout>
+</LinearLayout>

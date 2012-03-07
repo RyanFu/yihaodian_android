@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_result_linear" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_result_title_linearlayout" android:background="@drawable/search_result_label_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/search_result_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_result_title_marginTop" android:layout_marginBottom="@dimen/search_result_title_marginBottom" android:drawableLeft="@drawable/zoom" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/search_result_list_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/search_loading_product" android:background="@drawable/search_result_label_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_product_loading" />
+        <ListView android:id="@id/search_result_list" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/search_result_product_pressed" android:cacheColorHint="@null" android:divider="@drawable/divider02" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

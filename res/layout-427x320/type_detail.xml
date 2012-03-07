@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:title="http://schemas.android.com/apk/res/com.thestore.main">
+    <include layout="@layout/title_typedetail" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:background="#ffc5c0c0" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="32.0px" android:layout_marginLeft="36.0px" android:layout_marginTop="10.0px" android:layout_marginRight="36.0px">
+            <TextView android:textSize="16.0px" android:textColor="#ffa72024" android:gravity="center" android:id="@id/product_orderby_sales" android:background="@drawable/productdetail_title_press" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="销量" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/product_orderby_time" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="时间" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/product_orderby_price" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="价格" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#ffa72024" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" />
+        <ListView android:scrollbarStyle="insideOverlay" android:id="@id/type_list" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/search_result_product_pressed" android:cacheColorHint="@null" android:divider="@drawable/divider02" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

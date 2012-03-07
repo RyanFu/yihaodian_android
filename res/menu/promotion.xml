@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_mystore" android:id="@id/menu_mystore" android:title="@string/menu_mystore" />
+    <item android:icon="@drawable/ic_menu_message" android:id="@id/menu_message" android:title="@string/menu_message" />
+    <item android:icon="@drawable/ic_menu_share" android:id="@id/menu_share" android:title="@string/menu_share" />
+    <item android:icon="@drawable/ic_menu_return" android:id="@id/menu_return" android:title="@string/menu_return" />
+</menu>

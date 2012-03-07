@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="change_mystore" />
+    <item type="id" name="change_cart" />
+    <item type="id" name="change_message" />
+    <item type="id" name="change_feedback" />
+    <item type="id" name="change_favorite" />
+    <item type="id" name="change_detail" />
+    <item type="id" name="change_search" />
+    <item type="id" name="change_type" />
+    <item type="id" name="check_update" />
+    <item type="id" name="loading_fail" />
+    <item type="id" name="loading_init" />
+    <item type="id" name="connect_timeout" />
+    <item type="id" name="auto_focus" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="encode_failed" />
+    <item type="id" name="encode_succeeded" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="quit" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="search_barcode_net" />
+    <item type="id" name="get_hotproducts" />
+    <item type="id" name="province" />
+    <item type="id" name="message_count_net" />
+    <item type="id" name="message_list_net" />
+    <item type="id" name="message_del_net" />
+    <item type="id" name="message_detail_net" />
+    <item type="id" name="home_promotion" />
+    <item type="id" name="user_land_net" />
+    <item type="id" name="user_regist_net" />
+    <item type="id" name="user_code_net" />
+    <item type="id" name="user_forget_net" />
+    <item type="id" name="user_modify_net" />
+    <item type="id" name="user_logout_net" />
+    <item type="id" name="productdetail_introduce_id" />
+    <item type="id" name="productdetail_descripetion_id" />
+    <item type="id" name="productdetail_comment_id" />
+    <item type="id" name="search_keyword_net" />
+    <item type="id" name="search_result_net" />
+    <item type="id" name="search_buy_net" />
+    <item type="id" name="search_list_net" />
+    <item type="id" name="cart_getcart_net" />
+    <item type="id" name="cart_change_num_net" />
+    <item type="id" name="cart_del_net" />
+    <item type="id" name="cart_update_net" />
+    <item type="id" name="cart_delall_net" />
+    <item type="id" name="type_homehot_net" />
+    <item type="id" name="home_page_net" />
+    <item type="id" name="type_detail_net" />
+    <item type="id" name="mystore_message_net" />
+    <item type="id" name="favorite_add_net" />
+    <item type="id" name="favorite_list_net" />
+    <item type="id" name="favorite_del_net" />
+    <item type="id" name="create_session_order" />
+    <item type="id" name="get_myorderlist_bytoken" />
+    <item type="id" name="get_orderdetail_byorderid" />
+    <item type="id" name="get_session_order" />
+    <item type="id" name="remove_session_order" />
+    <item type="id" name="save_goodreceiver_to_sessionorder" />
+    <item type="id" name="save_invoice_to_sessionorder" />
+    <item type="id" name="submit_order" />
+    <item type="id" name="mystore_order_net" />
+    <item type="id" name="cancel_order" />
+    <item type="id" name="rebuy_order" />
+    <item type="id" name="loading_time_stamp_net" />
+    <item type="id" name="set_goodreceiver_from_mystore" />
+    <item type="id" name="get_goodreceiver_list" />
+    <item type="id" name="insert_goodreceiver" />
+    <item type="id" name="update_goodreceiver" />
+    <item type="id" name="delete_goodreceiver" />
+    <item type="id" name="get_allprovince" />
+    <item type="id" name="get_city_by_provinceid" />
+    <item type="id" name="get_county_by_cityid" />
+    <item type="id" name="longclick_menu_setdefault" />
+    <item type="id" name="longclick_menu_modify" />
+    <item type="id" name="longclick_menu_delete" />
+    <item type="id" name="save_coupon" />
+    <item type="id" name="get_myCoupon_list" />
+    <item type="id" name="use_coupon" />
+    <item type="id" name="get_promotion_list" />
+    <item type="id" name="get_promotion_more" />
+    <item type="id" name="note_net" />
+    <item type="id" name="search_tail" />
+    <item type="id" name="cart_delall_net_ex" />
+    <item type="id" name="show_orders" />
+    <item type="id" name="show_process" />
+    <item type="id" name="get_category" />
+    <item type="id" name="category_detail_net" />
+    <item type="id" name="category_detail_more" />
+    <item type="id" name="about_title">false</item>
+    <item type="id" name="about_content">false</item>
+    <item type="id" name="about_version_title">false</item>
+    <item type="id" name="about_version_content">false</item>
+    <item type="id" name="about_service_phone">false</item>
+    <item type="id" name="linear_bottom">false</item>
+    <item type="id" name="home_include">false</item>
+    <item type="id" name="barcode_edit">false</item>
+    <item type="id" name="barcode_submit">false</item>
+    <item type="id" name="barcode_title_text">false</item>
+    <item type="id" name="barcode_search_result_list">false</item>
+    <item type="id" name="bottom_linear">false</item>
+    <item type="id" name="bottom_home">false</item>
+    <item type="id" name="bottom_search">false</item>
+    <item type="id" name="bottom_type">false</item>
+    <item type="id" name="bottom_cart_linear">false</item>
+    <item type="id" name="bottom_cart_num">false</item>
+    <item type="id" name="bottom_more">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="status_view">false</item>
+    <item type="id" name="status_text_view">false</item>
+    <item type="id" name="scan_btn">false</item>
+    <item type="id" name="scan_exit">false</item>
+    <item type="id" name="search_result_linear">false</item>
+    <item type="id" name="cart_linear">false</item>
+    <item type="id" name="cart_product_null_linear">false</item>
+    <item type="id" name="cart_null_btn">false</item>
+    <item type="id" name="cart_product_linear">false</item>
+    <item type="id" name="cart_present_layout">false</item>
+    <item type="id" name="present_title">false</item>
+    <item type="id" name="cart_result_desc">false</item>
+    <item type="id" name="cart_product_img">false</item>
+    <item type="id" name="cart_product_name">false</item>
+    <item type="id" name="cart_product_price">false</item>
+    <item type="id" name="cart_product_isbuy">false</item>
+    <item type="id" name="cart_del_img">false</item>
+    <item type="id" name="cart_operate_layout">false</item>
+    <item type="id" name="cart_sub_num">false</item>
+    <item type="id" name="cart_edit_num">false</item>
+    <item type="id" name="cart_add_num">false</item>
+    <item type="id" name="cart_op_collect">false</item>
+    <item type="id" name="cart_op_share">false</item>
+    <item type="id" name="cart_product_count">false</item>
+    <item type="id" name="cart_product_totalprice">false</item>
+    <item type="id" name="cart_tocheckout_btn">false</item>
+    <item type="id" name="cart_toshopping_btn">false</item>
+    <item type="id" name="experince_text_layout">false</item>
+    <item type="id" name="comment_username">false</item>
+    <item type="id" name="comment_createdate">false</item>
+    <item type="id" name="ratingbar">false</item>
+    <item type="id" name="comment_good">false</item>
+    <item type="id" name="comment_img">false</item>
+    <item type="id" name="coupon_code">false</item>
+    <item type="id" name="coupon_usebtn">false</item>
+    <item type="id" name="coupon_list_title_str">false</item>
+    <item type="id" name="coupon_list_layout">false</item>
+    <item type="id" name="coupon_text_layout">false</item>
+    <item type="id" name="coupon_content">false</item>
+    <item type="id" name="coupon_text_img">false</item>
+    <item type="id" name="favorite_full_linear">false</item>
+    <item type="id" name="favorite_product_null_linear">false</item>
+    <item type="id" name="favorite_null_btn">false</item>
+    <item type="id" name="favorite_linear">false</item>
+    <item type="id" name="favorite_img">false</item>
+    <item type="id" name="favorite_name">false</item>
+    <item type="id" name="favorite_price">false</item>
+    <item type="id" name="favorite_del_img">false</item>
+    <item type="id" name="feekback_title">false</item>
+    <item type="id" name="feekback_edit">false</item>
+    <item type="id" name="feekback_commit">false</item>
+    <item type="id" name="sendaddress_layout">false</item>
+    <item type="id" name="order_addaddress">false</item>
+    <item type="id" name="recevier_operate_msg">false</item>
+    <item type="id" name="order_sendadd_listview">false</item>
+    <item type="id" name="editaddress_layout">false</item>
+    <item type="id" name="order_receiver_receivename">false</item>
+    <item type="id" name="order_receiver_province">false</item>
+    <item type="id" name="order_receiver_city">false</item>
+    <item type="id" name="order_receiver_county">false</item>
+    <item type="id" name="order_receiver_recordname">false</item>
+    <item type="id" name="order_receiver_postcode">false</item>
+    <item type="id" name="order_receiver_mobile">false</item>
+    <item type="id" name="order_receiver_phone">false</item>
+    <item type="id" name="order_insert_okbtn">false</item>
+    <item type="id" name="user_help">false</item>
+    <item type="id" name="question_str">false</item>
+    <item type="id" name="question_img">false</item>
+    <item type="id" name="home_top">false</item>
+    <item type="id" name="home_title_btn">false</item>
+    <item type="id" name="home_title_mystroe">false</item>
+    <item type="id" name="home_search_re">false</item>
+    <item type="id" name="home_linear_search">false</item>
+    <item type="id" name="home_search_edit">false</item>
+    <item type="id" name="home_search_img">false</item>
+    <item type="id" name="home_re1">false</item>
+    <item type="id" name="home_gallery_hot">false</item>
+    <item type="id" name="home_hot_left">false</item>
+    <item type="id" name="home_hot_right">false</item>
+    <item type="id" name="home_linear_mid">false</item>
+    <item type="id" name="home_note">false</item>
+    <item type="id" name="home_code">false</item>
+    <item type="id" name="home_linear_promotion">false</item>
+    <item type="id" name="home_gallery_promation">false</item>
+    <item type="id" name="home_pro_left">false</item>
+    <item type="id" name="home_pro_right">false</item>
+    <item type="id" name="home_list">false</item>
+    <item type="id" name="home_promation_text_top">false</item>
+    <item type="id" name="home_promation_text_bottom">false</item>
+    <item type="id" name="home_search_layout">false</item>
+    <item type="id" name="home_search_list">false</item>
+    <item type="id" name="hot_product_linear">false</item>
+    <item type="id" name="hot_product_desc">false</item>
+    <item type="id" name="hot_product_img">false</item>
+    <item type="id" name="hot_product_name">false</item>
+    <item type="id" name="hot_product_price">false</item>
+    <item type="id" name="hot_product_operate">false</item>
+    <item type="id" name="hot_op_buy">false</item>
+    <item type="id" name="hot_op_collect">false</item>
+    <item type="id" name="hot_op_show">false</item>
+    <item type="id" name="invoice_layout">false</item>
+    <item type="id" name="order_invoice_name">false</item>
+    <item type="id" name="order_invoice_content">false</item>
+    <item type="id" name="order_invoice_amount">false</item>
+    <item type="id" name="order_invoice_okbtn">false</item>
+    <item type="id" name="loading_text">false</item>
+    <item type="id" name="longtail_text">false</item>
+    <item type="id" name="message_title_linear">false</item>
+    <item type="id" name="message_box_linear">false</item>
+    <item type="id" name="message_box_img">false</item>
+    <item type="id" name="message_box_text">false</item>
+    <item type="id" name="message_all_text">false</item>
+    <item type="id" name="message_system_text">false</item>
+    <item type="id" name="message_private_text">false</item>
+    <item type="id" name="message_list_linear">false</item>
+    <item type="id" name="message_btn_linear">false</item>
+    <item type="id" name="message_share_btn">false</item>
+    <item type="id" name="message_del_btn">false</item>
+    <item type="id" name="message_detail_type_img">false</item>
+    <item type="id" name="message_detail_body">false</item>
+    <item type="id" name="message__detail_time">false</item>
+    <item type="id" name="message_left_img">false</item>
+    <item type="id" name="message_right_img">false</item>
+    <item type="id" name="message_new_img">false</item>
+    <item type="id" name="message_type_img">false</item>
+    <item type="id" name="message_body">false</item>
+    <item type="id" name="message_time">false</item>
+    <item type="id" name="more_linear">false</item>
+    <item type="id" name="more_scroll">false</item>
+    <item type="id" name="more_linear_topfive">false</item>
+    <item type="id" name="more_linear_message">false</item>
+    <item type="id" name="more_linear_myStore">false</item>
+    <item type="id" name="more_linear_barcode">false</item>
+    <item type="id" name="more_linear_note">false</item>
+    <item type="id" name="more_linear_hotproduct">false</item>
+    <item type="id" name="more_linear_bottomfour">false</item>
+    <item type="id" name="more_linear_help">false</item>
+    <item type="id" name="more_linear_feekback">false</item>
+    <item type="id" name="more_linear_about">false</item>
+    <item type="id" name="more_linear_statement">false</item>
+    <item type="id" name="more_linear_update">false</item>
+    <item type="id" name="more_text">false</item>
+    <item type="id" name="myorder_list_layout">false</item>
+    <item type="id" name="myorder_loading_more_btn">false</item>
+    <item type="id" name="myorder_text_layout">false</item>
+    <item type="id" name="myorder_text">false</item>
+    <item type="id" name="myorder_operate_btn">false</item>
+    <item type="id" name="mystore_img">false</item>
+    <item type="id" name="mystore_mail">false</item>
+    <item type="id" name="mystore_coupon">false</item>
+    <item type="id" name="mystore_num">false</item>
+    <item type="id" name="mystore_sms_linear">false</item>
+    <item type="id" name="mystore_sms">false</item>
+    <item type="id" name="mystore_right_img_order">false</item>
+    <item type="id" name="mystore_change_password_btn">false</item>
+    <item type="id" name="mystore_address_btn">false</item>
+    <item type="id" name="mystore_order_linear">false</item>
+    <item type="id" name="mystore_favorite_linear">false</item>
+    <item type="id" name="mystore_logout">false</item>
+    <item type="id" name="mystore_favorite">false</item>
+    <item type="id" name="mystore_favorite_more">false</item>
+    <item type="id" name="mystore_right_img_favorite">false</item>
+    <item type="id" name="mystore_favorite_null">false</item>
+    <item type="id" name="mystore_favorite_text">false</item>
+    <item type="id" name="mystore_right_img">false</item>
+    <item type="id" name="mystore_favorite_full">false</item>
+    <item type="id" name="mystore_favorite_img">false</item>
+    <item type="id" name="mystore_favorite_name">false</item>
+    <item type="id" name="mystore_favorite_price">false</item>
+    <item type="id" name="mystore_favorite_del">false</item>
+    <item type="id" name="mystore_moreorder_layout">false</item>
+    <item type="id" name="mystore_order">false</item>
+    <item type="id" name="mystore_order_more">false</item>
+    <item type="id" name="mystore_order_null">false</item>
+    <item type="id" name="mystore_order_text">false</item>
+    <item type="id" name="mystore_order_full">false</item>
+    <item type="id" name="mystore_order_id">false</item>
+    <item type="id" name="mystore_order_price">false</item>
+    <item type="id" name="mystore_order_time">false</item>
+    <item type="id" name="mystore_order_status">false</item>
+    <item type="id" name="titlebar">false</item>
+    <item type="id" name="title_text">false</item>
+    <item type="id" name="note_marquee">false</item>
+    <item type="id" name="view">false</item>
+    <item type="id" name="note_result_scroll">false</item>
+    <item type="id" name="note_result_linear">false</item>
+    <item type="id" name="note_add_linear">false</item>
+    <item type="id" name="linear_edit">false</item>
+    <item type="id" name="note_edit">false</item>
+    <item type="id" name="note_add_btn">false</item>
+    <item type="id" name="note_linear_list">false</item>
+    <item type="id" name="view_bottom">false</item>
+    <item type="id" name="note_search_btn">false</item>
+    <item type="id" name="note_list">false</item>
+    <item type="id" name="note_linear">false</item>
+    <item type="id" name="note_list_text">false</item>
+    <item type="id" name="note_del_img">false</item>
+    <item type="id" name="note_result_title_linear">false</item>
+    <item type="id" name="note_result_title_text">false</item>
+    <item type="id" name="note_result_content_linear">false</item>
+    <item type="id" name="note_content_img">false</item>
+    <item type="id" name="note_product_name">false</item>
+    <item type="id" name="note_product_price">false</item>
+    <item type="id" name="note_buy_btn">false</item>
+    <item type="id" name="checkorder_producttotalprice">false</item>
+    <item type="id" name="checkorder_deliveryamount">false</item>
+    <item type="id" name="checkorder_accountamount">false</item>
+    <item type="id" name="checkorder_couponamount">false</item>
+    <item type="id" name="checkorder_paymentyamount">false</item>
+    <item type="id" name="order_sendto">false</item>
+    <item type="id" name="order_productname">false</item>
+    <item type="id" name="ordersendmethod_content">false</item>
+    <item type="id" name="order_paytype_text">false</item>
+    <item type="id" name="order_usecoupon_layout">false</item>
+    <item type="id" name="order_usercoupon">false</item>
+    <item type="id" name="order_userinvoice_layout">false</item>
+    <item type="id" name="order_useinvoice">false</item>
+    <item type="id" name="checkorder_createorder_btn">false</item>
+    <item type="id" name="checkorder_cancel_btn">false</item>
+    <item type="id" name="orderdetail_layout">false</item>
+    <item type="id" name="orderdetail_ordercode">false</item>
+    <item type="id" name="orderdetail_orderstatus">false</item>
+    <item type="id" name="orderdetail_producttotalprice">false</item>
+    <item type="id" name="orderdetail_deliveryamount">false</item>
+    <item type="id" name="orderdetail_accountamount">false</item>
+    <item type="id" name="orderdetail_couponamount">false</item>
+    <item type="id" name="orderdetail_paymentyamount">false</item>
+    <item type="id" name="myorder_productlist_layout">false</item>
+    <item type="id" name="order_operate_button">false</item>
+    <item type="id" name="orderdetail_receivename">false</item>
+    <item type="id" name="orderdetail_deliverymethod">false</item>
+    <item type="id" name="orderdetail_paymethod">false</item>
+    <item type="id" name="myorder_operator_buttons">false</item>
+    <item type="id" name="orderdetail_text_layout">false</item>
+    <item type="id" name="orderdetail_top_text">false</item>
+    <item type="id" name="orderdetail_bottom_text">false</item>
+    <item type="id" name="orderdetail_text_line">false</item>
+    <item type="id" name="productdetail_intro_img">false</item>
+    <item type="id" name="productdetail_linear">false</item>
+    <item type="id" name="productdetail_scan_result_layout">false</item>
+    <item type="id" name="productdetail_scan_result_textview">false</item>
+    <item type="id" name="productdetail_intro_text">false</item>
+    <item type="id" name="productdetail_desc_text">false</item>
+    <item type="id" name="productdetail_eval_text">false</item>
+    <item type="id" name="productdetail_scrollview">false</item>
+    <item type="id" name="productdetail_layout">false</item>
+    <item type="id" name="productdetail_intro_layout">false</item>
+    <item type="id" name="productdetail_name">false</item>
+    <item type="id" name="productdetail_img_leftarrow">false</item>
+    <item type="id" name="productdetail_image_g">false</item>
+    <item type="id" name="productdetail_img_rightarrow">false</item>
+    <item type="id" name="productdetail_price">false</item>
+    <item type="id" name="productdetail_stocks">false</item>
+    <item type="id" name="productdetail_sub">false</item>
+    <item type="id" name="productdetail_quantity">false</item>
+    <item type="id" name="productdetail_add">false</item>
+    <item type="id" name="productdetail_buy">false</item>
+    <item type="id" name="productdetail_favorite">false</item>
+    <item type="id" name="productdetail_share">false</item>
+    <item type="id" name="productdetail_desc_layout">false</item>
+    <item type="id" name="productdetail_desc_webview">false</item>
+    <item type="id" name="productdetail_comment_layout">false</item>
+    <item type="id" name="comment_ratingtotalcount">false</item>
+    <item type="id" name="comment_rating_str">false</item>
+    <item type="id" name="goodrating_prograssbar">false</item>
+    <item type="id" name="goodrating_experience_count">false</item>
+    <item type="id" name="middlerating_prograssbar">false</item>
+    <item type="id" name="middlerating_experience_count">false</item>
+    <item type="id" name="badrating_prograssbar">false</item>
+    <item type="id" name="badrating_experience_count">false</item>
+    <item type="id" name="rating_experience_layout">false</item>
+    <item type="id" name="type_list">false</item>
+    <item type="id" name="promotion_content">false</item>
+    <item type="id" name="promotion_text_img">false</item>
+    <item type="id" name="province_close">false</item>
+    <item type="id" name="province_num1">false</item>
+    <item type="id" name="province_num2">false</item>
+    <item type="id" name="province_num3">false</item>
+    <item type="id" name="province_num4">false</item>
+    <item type="id" name="province_num5">false</item>
+    <item type="id" name="province_num6">false</item>
+    <item type="id" name="province_num7">false</item>
+    <item type="id" name="province_num8">false</item>
+    <item type="id" name="province_num9">false</item>
+    <item type="id" name="province_num10">false</item>
+    <item type="id" name="province_num11">false</item>
+    <item type="id" name="province_num12">false</item>
+    <item type="id" name="province_num13">false</item>
+    <item type="id" name="province_num14">false</item>
+    <item type="id" name="province_num15">false</item>
+    <item type="id" name="province_num16">false</item>
+    <item type="id" name="province_num17">false</item>
+    <item type="id" name="province_num18">false</item>
+    <item type="id" name="province_num19">false</item>
+    <item type="id" name="province_num20">false</item>
+    <item type="id" name="province_num21">false</item>
+    <item type="id" name="province_num22">false</item>
+    <item type="id" name="province_num23">false</item>
+    <item type="id" name="province_num24">false</item>
+    <item type="id" name="province_num25">false</item>
+    <item type="id" name="province_num26">false</item>
+    <item type="id" name="province_num27">false</item>
+    <item type="id" name="province_num28">false</item>
+    <item type="id" name="province_num29">false</item>
+    <item type="id" name="province_num30">false</item>
+    <item type="id" name="province_num31">false</item>
+    <item type="id" name="receiver_text_layout">false</item>
+    <item type="id" name="receiver_content">false</item>
+    <item type="id" name="receiver_img">false</item>
+    <item type="id" name="scan_result_linear">false</item>
+    <item type="id" name="scan_result_msg">false</item>
+    <item type="id" name="scan_result_rescan_btn">false</item>
+    <item type="id" name="scan_result_manual_btn">false</item>
+    <item type="id" name="scan_result_more">false</item>
+    <item type="id" name="hot_sale_list">false</item>
+    <item type="id" name="search_null">false</item>
+    <item type="id" name="search_linear_search">false</item>
+    <item type="id" name="search_txtSearch">false</item>
+    <item type="id" name="search_btnSearch">false</item>
+    <item type="id" name="search_longtail_layout">false</item>
+    <item type="id" name="search_longtail_list">false</item>
+    <item type="id" name="search_result_desc">false</item>
+    <item type="id" name="search_product_img">false</item>
+    <item type="id" name="search_product_name">false</item>
+    <item type="id" name="search_product_price">false</item>
+    <item type="id" name="search_product_isbuy">false</item>
+    <item type="id" name="search_result_operate">false</item>
+    <item type="id" name="search_op_buy">false</item>
+    <item type="id" name="search_op_collect">false</item>
+    <item type="id" name="search_op_show">false</item>
+    <item type="id" name="search_result_title_linearlayout">false</item>
+    <item type="id" name="search_result_title">false</item>
+    <item type="id" name="search_result_list_height">false</item>
+    <item type="id" name="search_loading_product">false</item>
+    <item type="id" name="search_result_list">false</item>
+    <item type="id" name="order_list">false</item>
+    <item type="id" name="showorder_show_button">false</item>
+    <item type="id" name="type_result_linear">false</item>
+    <item type="id" name="type_result_desc">false</item>
+    <item type="id" name="type_product_img">false</item>
+    <item type="id" name="type_product_name">false</item>
+    <item type="id" name="type_product_price">false</item>
+    <item type="id" name="showorder_select_img">false</item>
+    <item type="id" name="showorderinfo_layout">false</item>
+    <item type="id" name="sinaland">false</item>
+    <item type="id" name="userland_user">false</item>
+    <item type="id" name="userland_pass">false</item>
+    <item type="id" name="sinaweibotext">false</item>
+    <item type="id" name="agreement_title">false</item>
+    <item type="id" name="agreement_content">false</item>
+    <item type="id" name="join_text">false</item>
+    <item type="id" name="join_edit">false</item>
+    <item type="id" name="title_left_btn">false</item>
+    <item type="id" name="title_right_btn">false</item>
+    <item type="id" name="toast_message">false</item>
+    <item type="id" name="type_linear_topfive">false</item>
+    <item type="id" name="type_listview">false</item>
+    <item type="id" name="product_orderby_sales">false</item>
+    <item type="id" name="product_orderby_time">false</item>
+    <item type="id" name="product_orderby_price">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="type_product_count">false</item>
+    <item type="id" name="type_result_operate">false</item>
+    <item type="id" name="type_op_buy">false</item>
+    <item type="id" name="type_op_collect">false</item>
+    <item type="id" name="type_op_show">false</item>
+    <item type="id" name="type_product_oldprice">false</item>
+    <item type="id" name="type_text">false</item>
+    <item type="id" name="point">false</item>
+    <item type="id" name="type_title_text">false</item>
+    <item type="id" name="linear">false</item>
+    <item type="id" name="userland_linear">false</item>
+    <item type="id" name="userland_linear_remember">false</item>
+    <item type="id" name="userland_check">false</item>
+    <item type="id" name="userland_button_land">false</item>
+    <item type="id" name="userland_linear_regist">false</item>
+    <item type="id" name="userland_button_regist">false</item>
+    <item type="id" name="userland_button_forget">false</item>
+    <item type="id" name="regist_linear">false</item>
+    <item type="id" name="regist_user">false</item>
+    <item type="id" name="regist_pass">false</item>
+    <item type="id" name="regist_secondpass">false</item>
+    <item type="id" name="regist_ver_linear">false</item>
+    <item type="id" name="regist_ver_code">false</item>
+    <item type="id" name="regist_ver_img">false</item>
+    <item type="id" name="regist_ver_text">false</item>
+    <item type="id" name="regist_linear_submit">false</item>
+    <item type="id" name="regist_button_submit">false</item>
+    <item type="id" name="forget_linear">false</item>
+    <item type="id" name="forget_content_title">false</item>
+    <item type="id" name="forget_content">false</item>
+    <item type="id" name="forget_user">false</item>
+    <item type="id" name="forget_ver_linear">false</item>
+    <item type="id" name="forget_ver_code">false</item>
+    <item type="id" name="forget_ver_img">false</item>
+    <item type="id" name="forget_ver_text">false</item>
+    <item type="id" name="forget_button_ok">false</item>
+    <item type="id" name="modify_pwd_linear">false</item>
+    <item type="id" name="modify_oldpwd">false</item>
+    <item type="id" name="modify_newpwd">false</item>
+    <item type="id" name="modify_checkpwd">false</item>
+    <item type="id" name="modify_pwd_okbtn">false</item>
+    <item type="id" name="userland_bottom">false</item>
+    <item type="id" name="menu_return">false</item>
+    <item type="id" name="menu_scan">false</item>
+    <item type="id" name="menu_search">false</item>
+    <item type="id" name="menu_checkout">false</item>
+    <item type="id" name="menu_continuetobuy">false</item>
+    <item type="id" name="menu_submitorder">false</item>
+    <item type="id" name="menu_cancel">false</item>
+    <item type="id" name="menu_mystore">false</item>
+    <item type="id" name="menu_message">false</item>
+    <item type="id" name="menu_setup">false</item>
+    <item type="id" name="menu_about">false</item>
+    <item type="id" name="menu_exit">false</item>
+    <item type="id" name="menu_forward">false</item>
+    <item type="id" name="menu_delete">false</item>
+    <item type="id" name="menu_help">false</item>
+    <item type="id" name="menu_myorder">false</item>
+    <item type="id" name="menu_favorite">false</item>
+    <item type="id" name="menu_logout">false</item>
+    <item type="id" name="menu_find">false</item>
+    <item type="id" name="menu_deleteall">false</item>
+    <item type="id" name="menu_buy">false</item>
+    <item type="id" name="menu_share">false</item>
+    <item type="id" name="menu_addreceiver">false</item>
+    <item type="id" name="menu_edit">false</item>
+    <item type="id" name="menu_manual">false</item>
+    <item type="id" name="menu_research">false</item>
+    <item type="id" name="menu_regist">false</item>
+    <item type="id" name="menu_forget">false</item>
+    <item type="id" name="menu_login">false</item>
+</resources>

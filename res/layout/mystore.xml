@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ScrollView android:scrollbars="vertical" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginBottom="10.0px">
+                    <ImageView android:id="@id/mystore_img" android:background="@drawable/mystore_img" android:layout_width="67.0px" android:layout_height="67.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="5.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="5.0px" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px">
+                        <TextView android:textSize="14.0px" android:textColor="#ff734d01" android:id="@id/mystore_mail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" />
+                        <TextView android:textSize="14.0px" android:textColor="#ff000000" android:id="@id/mystore_coupon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" />
+                        <TextView android:textSize="14.0px" android:textColor="#ff000000" android:id="@id/mystore_num" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/mystore_sms_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="12.0px" android:layout_marginBottom="12.0px">
+                    <ImageView android:background="@drawable/sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0px" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff000000" android:id="@id/mystore_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_weight="1.0" />
+                    <ImageView android:gravity="right" android:id="@id/mystore_right_img_order" android:background="@drawable/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0px" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="8.0px" android:layout_marginRight="10.0px">
+                <Button android:gravity="center" android:id="@id/mystore_change_password_btn" android:text="@string/mystore_change_password" style="@style/big_redbtn_style" />
+                <Button android:gravity="center" android:id="@id/mystore_address_btn" android:layout_marginLeft="15.0px" android:text="@string/mystore_address" style="@style/big_redbtn_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/mystore_order_linear" android:background="@drawable/border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/mystore_favorite_linear" android:background="@drawable/border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" />
+            <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mystore_logout" android:layout_marginTop="6.0px" android:layout_marginBottom="6.0px" android:text="@string/mystore_logout" style="@style/big_redbtn_style" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/sendaddress_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="14.0px" android:textColor="#ff734d01" android:gravity="center_vertical" android:id="@id/order_addaddress" android:background="@drawable/border" android:padding="10.0px" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:text="@string/order_goodreceiver_btn_str" android:drawableLeft="@drawable/add_address_icon" android:drawableRight="@drawable/right_arrow" android:drawablePadding="10.0px" />
+        <TextView android:textSize="16.0px" android:textColor="#ff333333" android:id="@id/recevier_operate_msg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0px" android:layout_marginTop="5.0px" android:text="( 您可长按地址进行修改或设置 )" />
+        <ListView android:id="@id/order_sendadd_listview" android:background="@drawable/border" android:paddingBottom="10.0px" android:visibility="gone" android:scrollbars="none" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px" android:cacheColorHint="@null" android:divider="#ffdfca9f" android:dividerHeight="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/editaddress_layout" android:paddingLeft="7.0px" android:paddingTop="10.0px" android:paddingRight="10.0px" android:paddingBottom="10.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="fill_vertical|right|center" android:layout_width="60.0px" android:layout_height="fill_parent" android:layout_marginRight="5.0px" android:text="@string/order_receivename_str" android:singleLine="true" />
+            <EditText android:id="@id/order_receiver_receivename" android:background="@drawable/coupon_bg" android:layout_width="235.0px" android:layout_height="31.0px" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="fill_vertical|right|center" android:layout_width="60.0px" android:layout_height="fill_parent" android:layout_marginRight="5.0px" android:text="@string/order_contury_str" android:singleLine="true" />
+            <Spinner android:id="@id/order_receiver_province" android:background="@drawable/spinner" android:layout_width="wrap_content" android:layout_height="31.0px" android:layout_marginRight="4.0px" android:drawSelectorOnTop="true" />
+            <Spinner android:id="@id/order_receiver_city" android:background="@drawable/spinner" android:layout_width="82.0px" android:layout_height="31.0px" android:layout_marginRight="4.0px" android:drawSelectorOnTop="true" />
+            <Spinner android:id="@id/order_receiver_county" android:background="@drawable/spinner" android:layout_width="81.0px" android:layout_height="31.0px" android:layout_marginRight="4.0px" android:drawSelectorOnTop="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="fill_vertical|right|center" android:layout_width="60.0px" android:layout_height="fill_parent" android:layout_marginRight="5.0px" android:text="@string/order_address_str" android:singleLine="true" />
+            <EditText android:id="@id/order_receiver_recordname" android:background="@drawable/coupon_bg" android:layout_width="235.0px" android:layout_height="31.0px" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="fill_vertical|right|center" android:layout_width="60.0px" android:layout_height="fill_parent" android:layout_marginRight="5.0px" android:text="@string/order_postcode_str" android:singleLine="true" />
+            <TextView android:textSize="16.0px" android:textColor="#ff000000" android:id="@id/order_receiver_postcode" android:background="@drawable/coupon_bg" android:paddingLeft="5.0px" android:layout_width="235.0px" android:layout_height="31.0px" android:singleLine="true" android:phoneNumber="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="fill_vertical|right|center" android:layout_width="60.0px" android:layout_height="fill_parent" android:layout_marginRight="5.0px" android:text="@string/order_receivermobile_str" android:singleLine="true" />
+            <EditText android:textColor="#ff333333" android:id="@id/order_receiver_mobile" android:background="@drawable/coupon_bg" android:layout_width="235.0px" android:layout_height="31.0px" android:singleLine="true" android:phoneNumber="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0px">
+            <TextView android:textSize="14.0px" android:textColor="#ff333333" android:gravity="fill_vertical|right|center" android:layout_width="60.0px" android:layout_height="fill_parent" android:layout_marginRight="5.0px" android:text="@string/order_receiverphone_str" android:singleLine="true" />
+            <EditText android:textColor="#ff333333" android:id="@id/order_receiver_phone" android:background="@drawable/coupon_bg" android:layout_width="235.0px" android:layout_height="31.0px" android:singleLine="true" android:phoneNumber="true" />
+        </LinearLayout>
+        <Button android:layout_gravity="center_horizontal" android:id="@id/order_insert_okbtn" android:layout_marginTop="20.0px" style="@style/big_redbtn_style" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

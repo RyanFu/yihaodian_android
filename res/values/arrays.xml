@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="more_text">
+        <item>消息</item>
+        <item>我的1号店</item>
+        <item>条形码扫描</item>
+        <item>快速购</item>
+        <item>优惠促销</item>
+        <item>使用帮助</item>
+        <item>意见反馈</item>
+        <item>关于</item>
+        <item>服务协议</item>
+        <item>版本更新</item>
+    </string-array>
+    <string-array name="set_search_sum">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="province">
+        <item>上海</item>
+        <item>江苏</item>
+        <item>浙江</item>
+        <item>安徽</item>
+        <item>山东</item>
+        <item>北京</item>
+        <item>天津</item>
+        <item>河北</item>
+        <item>山西</item>
+        <item>内蒙古</item>
+        <item>辽宁</item>
+        <item>吉林</item>
+        <item>黑龙江</item>
+        <item>广东</item>
+        <item>广西</item>
+        <item>海南</item>
+        <item>福建</item>
+        <item>四川</item>
+        <item>重庆</item>
+        <item>贵州</item>
+        <item>云南</item>
+        <item>西藏</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>河南</item>
+        <item>江西</item>
+        <item>陕西</item>
+        <item>甘肃</item>
+        <item>青海</item>
+        <item>宁夏</item>
+        <item>新疆</item>
+    </string-array>
+    <string-array name="type_name">
+        <item>食品、饮料、酒水</item>
+        <item>美容化妆、个人护理</item>
+        <item>母婴食品、母婴用品</item>
+        <item>厨房用品、清洁用品</item>
+        <item>家居汽饰、箱包运动</item>
+        <item>手机数码电脑、家电</item>
+        <item>玩具、图书音像</item>
+        <item>营养保健、健康器械</item>
+        <item>办公用品</item>
+    </string-array>
+    <integer-array name="type_id">
+        <item>5135</item>
+        <item>5009</item>
+        <item>5117</item>
+        <item>5134</item>
+        <item>950340</item>
+        <item>950560</item>
+        <item>17722</item>
+        <item>8704</item>
+        <item>361</item>
+    </integer-array>
+    <string-array name="type_detail_title">
+        <item>食品榜</item>
+        <item>美容榜</item>
+        <item>母婴榜</item>
+        <item>厨卫榜</item>
+        <item>箱包榜</item>
+        <item>家电榜</item>
+        <item>玩具榜</item>
+        <item>保健榜</item>
+        <item>办公榜</item>
+    </string-array>
+    <string-array name="cart_buy">
+        <item>添加购物车失败</item>
+        <item>您的信用过低</item>
+        <item>只有黄金会员才能购买此产品</item>
+        <item>此产品为特价商品,购买数量超过限制</item>
+        <item>此产品只能使用返利购买，您的返利不足</item>
+        <item>此产品只限上海（崇明、长兴和横沙除外）地区配送</item>
+        <item>此产品为赠品，不能购买</item>
+        <item>此产品为主系列产品，不能购买</item>
+        <item>此产品为特价商品，购买数量超过限制</item>
+        <item>当订单中包含[10元虚拟卡]与其他非卡类商品时，每个订单限购一张[10元虚拟卡],请修改商品数量</item>
+        <item>由于活动限制，无法添加该商品</item>
+        <item>此产品每日一款活动的商品,添加购物车出错</item>
+        <item>对不起，当前商家或者仓库不能覆盖您所在的地区，请选择其它商家</item>
+        <item>对不起，没有覆盖到您所在地区的商家，请选择别的省份</item>
+        <item>对不起，中信积分不足,不能购买</item>
+        <item>您的收货地址所在的商家目前不销售</item>
+        <item>您已购买或加入购物车的数量超过限购数量</item>
+        <item>您加入购物车的数量超过该商品在您的公司的剩余数量</item>
+    </string-array>
+    <string-array name="invoice_content_arr">
+        <item>请选择</item>
+        <item>酒</item>
+        <item>饮料</item>
+        <item>食品</item>
+        <item>玩具</item>
+        <item>日用品</item>
+        <item>装修材料</item>
+        <item>化妆品</item>
+        <item>图书</item>
+        <item>办公用品</item>
+        <item>音像制品</item>
+        <item>学生用品</item>
+        <item>家具用品</item>
+        <item>饰品</item>
+        <item>服装</item>
+        <item>箱包</item>
+        <item>精品</item>
+        <item>家电</item>
+        <item>劳防用品</item>
+    </string-array>
+    <string-array name="coupon_type_arr">
+        <item>全场商品</item>
+        <item>产品</item>
+        <item>分类商品</item>
+        <item>品牌商品</item>
+    </string-array>
+    <string-array name="usehelp_question_arr">
+        <item>如何查询订单？</item>
+        <item>如何修改订单？</item>
+        <item>如何取消订单？</item>
+        <item>什么是订单拆分？</item>
+        <item>订单拆分的邮费怎么计算？</item>
+        <item>如何电话订购1号店商品？</item>
+        <item>收不到商品怎么办？</item>
+        <item>如何办理退换货？</item>
+        <item>如何签收与拒收商品？</item>
+    </string-array>
+    <string-array name="usehelp_answer_arr">
+        <item>\u0009您可以在登陆网站后进入“我的1号店”点击“我的订单”进行订单详细的查询。</item>
+        <item>"\u00091号店不提供修改订单功能，请您在提交订单前仔细核对订单信息，确认无误后再提交。如果您确定需要修改订单的具体内容，可做如下操作：
+ \u00091） 取消您的当前订单。
+ \u00092） 点击重新购买，则系统会将您取消订单中的商品重新放入购物车，按照一般购物流程，选择您需要修改的产品或支付方式，完成订单的修改。"</item>
+        <item>"\u00091） 当您的订单处于“待付款”或“待处理”状态下，可以取消订单。
+ \u00092） 登陆“我的1号店”点击“我的订单”可以查找您需要取消的订单，点击取消即可。"</item>
+        <item>\u0009当顾客购买了多个产品，其中存在发货时间不同、预售产品、预付订金产品或需要上门服务的产品时，系统会默认将顾客购买的产品按照相近的发货 时间拆分成多个订单，如：产品1和产品2的发货时间相近，产品3需要更多时间发货，则产品1和产品2将被放入1个订单，产品3放入另一个订单。 顾客可以以最快的速度接收到所购买的产品。</item>
+        <item>"\u0009上海地区（除崇明、横沙、长兴三岛外）、北京地区订单拆分前，购物金额满100元的，由1号店承担拆分后的配送费用； 如果子订单不满100，拆分订单可能会产生额外费用。
+ \u0009顾客也可以选择等待统一发送。
+ \u0009订单购物金额满100元且送货范围为上海（除崇明、横沙，长兴三岛外）、北京，免邮费；由于1号店的原因不能按照预计的发货时间发货， 造成订单的拆分，此时产生的拆单邮费由1号店承担。"</item>
+        <item>您可以拨打1号店订购电话(1010-1111)来订购您喜欢的商品，并把相关信息告诉客服人员即可。</item>
+        <item>"\u00091号店拥有智能化的管理系统，您选择的配送方式一定是适用于您的配送地址的；1号店提供明确而便捷的订单配送状态查询功能，您可以随时查看您订单的状态， 当发生长时间未收到商品的情况时，请注意查看您的订单状态：
+ \u00091、 请查看您的送货地址是否填写准确，确保收货时间有人接收，若您长时间没有收到商品，或收货地址和时间有误，请及时核实并联系1号店客服人员；
+ \u00092、 汇款到达但是遇到收货地址不详、汇款金额不足或库存不足的订单，1号店客服人员将联系您。"</item>
+        <item>"\u0009我们所售商品均为正品，并可提供发票，同时严格遵循国家三包法规，针对相关商品履行更换和退货的责任与义务。
+ \u0009为保障您的权益，请您付款后即与配送人员当面核对商品的种类、数量、规格、赠品、金额等是否与订单一致，确认无误后再进行签收。
+ \u0009请您保管好发票，送货单和商品的完整包装，对于误购，多购，或对商品不满意等原因，在商品包装整洁、完整未拆封、相关配件齐全、 不影响二次销售的前提下可以选择退货，需扣除手续费，手续费为商品售价的百分之十，客户自行承担运费。
+
+ \u00093C类商品自购买起七日内（以发票日期为准），出现国家三包规定的功能性故障时，必须出示生产厂家或特约售后服务中心的检测单， 方可在我司进行换货或退货。八至十五日，可选择换货或者维修。超过十五日并且在商品质保期间，可在生产厂家或者相关售后免费维修。 为了不耽误您的使用，缩短商品的处理时间，建议您直接联系生产厂家，以便及时处理！
+
+ \u00091、1号店不对因人为疏忽或使用不当而导致的商品问题作出退换或赔偿；
+ \u00092、所有食品、床上用品、护肤品、成人用品、彩妆、日化用品，若无质量问题不可退换，若确有质量问题，我司将按相关法规进行处理；
+ \u00093、为保护您及其他客户的健康，玩具、服饰、贴身用品不可退换；
+ \u00094、为维护知识产权，书籍和音像制品不可退换；
+ \u00095、所有样品、派送品、促销品、赠品不可退换；
+ \u00096、所有特价商品请当面验收，若无质量问题，事后不可退换；
+ \u00097、商品的外包装、附件、说明书不完整或者发票、检测单有涂改、缺少的情况不可退换；
+ \u00098、手机数码类产品，如出现软件升级不属于国家三包法规之内的故障，只需送至相关厂家进行升级，不在我司退货范围内。"</item>
+        <item>"\u0009为保障您的权益，请您付款后即与配送人员当面核对商品种类、数量、规格、赠品、金额等是否与订单一致，商品没有划痕、破损等表面质量问题， 准确无误后再进行签收。您或您委托的收货人的签字表示您已确认上述内容无误，1号店有权不接受以此为由的退换货。
+ 拒收规则：
+ \u0009原则上，1号店不接受无理由拒收。在您收到商品后，如对1号店的商品有任何不满意，在商品包装干净，完好且未经拆封，未经使用的前提下， 您可以与1号店客服联系提出退货要求，1号店客服人员将对您的退货要求做出判断后方可办理退货处理。
+ \u0009如您验收商品时发现商品短缺、配送错误、包装破损、商品存在质量问题等，您可以拒收全部或部分商品，相关的赠品，配件或捆绑商品应一起当场拒收。
+ \u0009如同一顾客二次无理由退货，1号店将对其视作“恶意订购”，今后对该顾客帐户仅做款到发货处理，敬请谅解！"</item>
+    </string-array>
+    <string-array name="create_session_order_error_msg">
+        <item>创建失败</item>
+        <item>您的信用过低</item>
+        <item>只有黄金会员才能购买此产品</item>
+        <item>此产品为特价商品,购买数量超过限制</item>
+        <item>此产品只能使用返利购买，您的返利不足</item>
+        <item>此产品只限上海（崇明、长兴和横沙除外）地区配送</item>
+        <item>此产品为赠品，不能购买</item>
+        <item>此产品为主系列产品，不能购买</item>
+        <item>此产品为特价商品，购买数量超过限制</item>
+        <item>当订单中包含[10元虚拟卡]与其他非卡类商品时，每个订单限购一张[10元虚拟卡],请修改商品数量</item>
+        <item>由于活动限制，无法添加该商品</item>
+        <item>此产品每日一款活动的商品,添加购物车出错</item>
+        <item>对不起，当前商家或者仓库不能覆盖您所在的地区，请选择其它商家</item>
+        <item>对不起，没有覆盖到您所在地区的商家，请选择别的省份</item>
+        <item>对不起，中信积分不足,不能购买</item>
+        <item>您的收货地址所在的商家目前不销售</item>
+        <item>您已购买或加入购物车的数量超过限购数量</item>
+        <item>您加入购物车的数量超过该商品在您的公司的剩余数量</item>
+    </string-array>
+    <string-array name="submit_order_error_msg">
+        <item>提交失败</item>
+        <item>用户没有登录</item>
+        <item>订单限制</item>
+        <item>抵用券错误</item>
+        <item>产品售完</item>
+        <item>库存错误</item>
+        <item>订单验证错误</item>
+        <item>dsp错误</item>
+        <item>秒杀产品错误</item>
+        <item>每日一销产品错误</item>
+        <item>到达每日下单上限</item>
+        <item>礼品错误</item>
+        <item>账户金额不足</item>
+    </string-array>
+</resources>

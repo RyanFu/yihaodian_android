@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8eeda" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ScrollView android:orientation="vertical" android:fadingEdgeLength="0.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/message_title_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0px">
+                <LinearLayout android:id="@id/message_box_linear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/message_box_img" android:background="@drawable/message_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="3.0px" />
+                    <TextView android:textSize="14.0px" android:textColor="#ff333333" android:id="@id/message_box_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:text="@string/message_list_title" />
+                </LinearLayout>
+                <View android:background="@drawable/message_gap" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="6.0px" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffc5c0c0" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="32.0px" android:layout_marginLeft="36.0px" android:layout_marginTop="10.0px" android:layout_marginRight="36.0px">
+                <TextView android:textSize="16.0px" android:textColor="#ffa72024" android:gravity="center" android:id="@id/message_all_text" android:background="@drawable/productdetail_title_press" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="@string/message_all" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/message_system_text" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="@string/message_system" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0px" android:textColor="#ff333333" android:gravity="center" android:id="@id/message_private_text" android:clickable="true" android:layout_width="82.0px" android:layout_height="32.0px" android:text="@string/message_private" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/message_list_linear" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/message_btn_linear" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="8.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px">
+                <Button android:gravity="center" android:id="@id/message_share_btn" android:text="@string/menu_forward" style="@style/big_redbtn_style" />
+                <Button android:gravity="center" android:id="@id/message_del_btn" android:layout_marginLeft="15.0px" android:text="@string/menu_delete" style="@style/big_redbtn_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:id="@id/linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/home_include" layout="@layout/bottom" />
+    </LinearLayout>
+</LinearLayout>

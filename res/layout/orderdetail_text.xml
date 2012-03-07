@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/orderdetail_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/orderdetail_top_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" />
+    <TextView android:id="@id/orderdetail_bottom_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="6.0px" />
+    <View android:id="@id/orderdetail_text_line" android:background="#ffdfca9f" android:layout_width="fill_parent" android:layout_height="1.0sp" android:layout_marginTop="10.0px" />
+</LinearLayout>
